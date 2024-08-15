@@ -1,0 +1,57 @@
+-- Siddhant Bali (2022496) and Rijusmit Biswas (2022400)
+
+-- A. List all 'Audio' albums released between 01-01-2020 and 31-12-2020
+SELECT * 
+FROM album
+WHERE media_type = 'audio' AND release_date BETWEEN '2020-01-01' AND '2020-12-31';
+
+-- B. List all members who have been the member of more than one group
+SELECT m.*
+FROM member m
+JOIN (
+    SELECT director_id AS member_id
+    FROM group_table
+    UNION ALL
+    SELECT producer_id
+    FROM group_table
+    UNION ALL
+    SELECT creator_id
+    FROM group_table
+    UNION ALL
+    SELECT performer_id
+    FROM group_table
+    UNION ALL
+    SELECT engineer_id
+    FROM group_table
+) g ON m.id = g.member_id
+GROUP BY m.id
+HAVING COUNT(*) > 1;
+
+-- C. List all members of 'Pop' music group who are not part of any other music group
+SELECT m.*
+FROM member m
+JOIN group_table g ON m.id = g.director_id OR m.id = g.producer_id OR m.id = g.creator_id OR m.id = g.performer_id OR m.id = g.engineer_id
+WHERE g.name = 'Pop Group'
+GROUP BY m.id
+HAVING COUNT(*) = 1;
+
+-- D. List all participants who have submitted both Audio and Video files
+SELECT c.*
+FROM candidate c
+JOIN submission s ON c.id = s.candidate_id
+WHERE EXISTS (
+    SELECT 1
+    FROM submission
+    WHERE candidate_id = c.id AND media_type = 'audio'
+) AND EXISTS (
+    SELECT 1
+    FROM submission
+    WHERE candidate_id = c.id AND media_type = 'video'
+);
+
+-- E. Analyze the data for "Which advertisement channel has been effective that attracted the maximum number of entry submissions digital or print?"
+SELECT ad_source, COUNT(*) AS submission_count
+FROM submission
+GROUP BY ad_source
+ORDER BY submission_count DESC
+LIMIT 1;

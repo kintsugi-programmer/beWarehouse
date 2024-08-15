@@ -1,0 +1,145 @@
+-- Siddhant Bali (2022496) and Rijusmit Biswas (2022400)
+
+DROP DATABASE IF EXISTS mcmsangeet;
+CREATE DATABASE mcmsangeet;
+USE mcmsangeet;
+
+CREATE TABLE candidate (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(255) NOT NULL,
+    round_status ENUM('participant', 'recommended','member','rejected'),
+    experience VARCHAR(255),
+    email VARCHAR(255),
+    phone VARCHAR(20) NOT NULL
+);
+
+CREATE TABLE panelist (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(255) NOT NULL,
+    experience VARCHAR(255),
+    email VARCHAR(255),
+    phone VARCHAR(20),
+    association_mcm VARCHAR(255)
+);
+
+CREATE TABLE submission (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    candidate_id INT NOT NULL,
+    info TEXT,
+    email VARCHAR(255),
+    phone VARCHAR(20),
+    media_link VARCHAR(255),
+    media_type ENUM('audio', 'video'),
+    submission_date DATE,
+    ad_source ENUM('digital', 'print'),
+    FOREIGN KEY (candidate_id) REFERENCES candidate(id)
+);
+
+CREATE TABLE member (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(255) NOT NULL,
+    phone VARCHAR(20),
+    email VARCHAR(255),
+    experience VARCHAR(255),
+    join_date DATE,
+    information TEXT
+);
+
+CREATE TABLE group_table (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(255) NOT NULL,
+    director_id INT,
+    producer_id INT,
+    creator_id INT,
+    performer_id INT,
+    engineer_id INT,
+    FOREIGN KEY (director_id) REFERENCES member(id),
+    FOREIGN KEY (producer_id) REFERENCES member(id),
+    FOREIGN KEY (creator_id) REFERENCES member(id),
+    FOREIGN KEY (performer_id) REFERENCES member(id),
+    FOREIGN KEY (engineer_id) REFERENCES member(id)
+);
+
+CREATE TABLE album (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(255),
+    group_id INT NOT NULL,
+    release_date DATE,
+    likes INT,
+    dislikes INT,
+    views INT,
+    price_perunit DECIMAL(10, 2),
+    status VARCHAR(50),
+    FOREIGN KEY (group_id) REFERENCES group_table(id)
+);
+
+CREATE TABLE order_table (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    album_id INT NOT NULL,
+    rate DECIMAL(10, 2),
+    date DATE,
+    director_id INT,
+    download_status ENUM('success', 'failure'),
+    FOREIGN KEY (album_id) REFERENCES album(id),
+    FOREIGN KEY (director_id) REFERENCES member(id)
+);
+
+
+INSERT INTO candidate (name, round_status, experience, email, phone)
+VALUES
+('Bali', 'member','5 years','bali@gmail.com','9876543210'),
+('Bhati', 'recommended','3 years','bhati@gmail.com','9191919191'),
+('Bhaskar', 'member','10 years','bhaskar@gmail.com','9898989898'),
+('Namit', 'rejected','1 year','namit@gmail.com','8080808080');
+
+INSERT INTO panelist (name, experience, email, phone, association_mcm)
+VALUES
+('Madhu Chopra', '20 years', 'madhu@gmail.com', '7007007007', 'master'),
+('Karan Johar', '15 years', 'karan@gmail.com', '8008008008', 'associate master'),
+('Mukesh Desai', '25 years', 'mukesh@gmail.com', '9009009009', 'associate master');
+
+INSERT INTO submission (candidate_id, info, email, phone, media_link, media_type, submission_date, ad_source)
+VALUES
+(1, 'Singer and musician', 'bali2@gmail.com', '9876523210', 'www.mwm.com', 'audio', '2020-03-01', 'print'),
+(2, 'Dancer and singer', 'prbhaiya@gmail.com', '9191929191', 'www.ssxsx.com', 'video', '2020-03-15', 'digital'),
+(3, 'Music composer', 'suresh@gmail.com', '9892989898', 'www.sureshmuxsxsxssic.com', 'audio', '2020-04-01', 'digital'),
+(4, 'Singer','meena@gmail.com', '8080808080', 'www.meenasinxsxsger.com', 'video', '2020-05-01', 'print'),
+(1, 'Singer and musician', 'rahul@gmail.com', '9876523210', 'www.rahulsaainger.com', 'audio', '2020-03-01', 'print'),
+(2, 'Dancer and singer', 'priya@gmail.com', '9191919191', 'www.priyadaaance.com', 'video', '2020-03-15', 'digital'),
+(3, 'Music composer', 'suresh@gmail.com', '9898989298', 'www.aa.com', 'audio', '2020-04-01', 'digital'),
+(4, 'Singer','meena@gmail.com', '8080808080', 'www.meenasgaaer.com', 'video', '2020-05-01', 'print');
+
+
+INSERT INTO member (name, phone, email, experience, join_date, information)
+VALUES
+('Rahul Sharma', '9876543210', 'rahul@gmail.com', '5 years', '2020-06-01', 'best Singer in asia'),
+('Suresh Iyer', '9898989898', 'suresh@gmail.com', '10 years', '2020-06-15', 'Music composer from china'),
+('Priya Raj', '9191919191', 'priya@gmail.com', '3 years', '2020-07-01', 'Dancer from italy'),
+('Meena Kulkarni', '8080808080', 'meena@gmail.com', '1 year', '2020-08-01', 'Singer with nightangle voice'),
+('Bali', '9876543210', 'bali@gmail.com', '5 years', '2020-06-01', 'honorable best Singer in asia'),
+('Bhaskar', '9898989898', 'bhaskar@gmail.com', '10 years', '2020-06-15', '2nd Music composer from china'),
+('Priyashi Raj', '9191929191', 'pri2ya@gmail.com', '30 years', '2020-07-01', '2nd Dancer from italy'),
+('Meenakshi Kulkarni', '8080828080', 'mee2na@gmail.com', '10 year', '2020-08-01', '2nd Singer with nightangle voice');
+
+INSERT INTO group_table (name, director_id, producer_id, creator_id, performer_id, engineer_id)
+VALUES
+('Pop Group', 1, 5, 6, 7, 8),
+('Classic Group', 2, 8, 7, 6, 5),
+('Leisure Group', 3, 5, 8, 7, 6),
+('Evergreen Group', 4, 6, 7, 8, 5);
+
+
+
+INSERT INTO album (name, group_id, release_date, likes, dislikes, views, price_perunit, status)
+VALUES 
+('My First Album', 1, '2020-01-01', 100, 20, 1000, 10, 'Released'),
+('Their Second Album', 2, '2020-02-01', 200, 10, 2000, 15, 'Released'),
+('Our Best Hits', 3, '2020-03-01', 500, 5, 5000, 20, 'Released'),
+('Greatest Songs', 4, '2020-04-01', 1000, 50, 10000, 25, 'Released');
+
+INSERT INTO order_table (album_id, rate, date, director_id, download_status) 
+VALUES
+(1, 10, '2020-01-10', 1, 'success'),  
+(2, 15, '2020-02-15', 2, 'failure'),
+(3, 20, '2020-03-20', 3, 'success'),
+(4, 25, '2020-04-25', 4, 'success');
