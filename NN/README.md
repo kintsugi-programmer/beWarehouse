@@ -3,7 +3,6 @@ Whats left :
 # REV1 : # DONE
 # REV2 with purple
 # REV3
-# Moms practice
 # Author name : # DONE
 
 
