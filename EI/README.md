@@ -904,7 +904,7 @@ In short, “Notes 2” provides a panoramic view of the factors driving moral d
 
 The text opens with a crucial question:
 
-> “Why think of ethics in AI?” citeturn1file0
+> “Why think of ethics in AI?”  
 
 This question may appear straightforward, yet it invites us to look closer at AI’s profound impact on human life. AI is no longer an abstract, futuristic technology; it is embedded in everyday decisions—from social media feeds to credit scoring and healthcare diagnostics. The notes warn that it’s naïve to assume AI will inherently be “good” and that ignoring ethical implications might lead to unforeseen harms.
 
@@ -929,7 +929,7 @@ Each assumption suggests a stance that effectively *disengages* human responsibi
 
 The notes present a set of foundational inquiries about moral properties and human‐machine comparisons:
 
-> “The problem of intrinsic moral properties: Does AI have an intrinsic moral property? Is an intrinsic property required for an agent to be ethical?” citeturn1file0
+> “The problem of intrinsic moral properties: Does AI have an intrinsic moral property? Is an intrinsic property required for an agent to be ethical?”  
 
 ### 2.1 Intrinsic Moral Properties vs. Interactional Morality
 One question is whether an AI system must *itself* possess moral qualities or if ethical considerations arise purely because of how it interacts with us. In other words:
@@ -941,7 +941,7 @@ One question is whether an AI system must *itself* possess moral qualities or if
 Suppose an AI system is used in medical diagnoses. Even if the AI has no “intrinsic” moral sense, doctors and hospital administrators have ethical concerns about how it might misdiagnose or prioritize certain patients over others. The moral conversation here focuses on the interaction—patient outcomes, fairness, and accountability—rather than the AI’s interior moral state.
 
 ### 2.2 Agency, Autonomy, and Intelligence
-> “Is agency and autonomy of machines the same as that of humans? Are we using the same concepts to define humans and machines?” citeturn1file0
+> “Is agency and autonomy of machines the same as that of humans? Are we using the same concepts to define humans and machines?”  
 
 This part of the notes questions whether philosophers and computer scientists define terms like *intelligence* and *autonomy* in the same way. Philosophers might link autonomy with the capacity for free will or rational reflection; computer scientists might measure autonomy by an AI’s ability to operate without human intervention.
 
@@ -957,7 +957,7 @@ A simple example is a self‐driving car. It displays *technical* autonomy by na
 
 The notes extensively detail contexts in which ethical issues emerge:
 
-> “The question of Impact: Is it because AI has impact on humans?” citeturn1file0
+> “The question of Impact: Is it because AI has impact on humans?”  
 
 ### 3.1 The Impact Question
 
@@ -968,7 +968,7 @@ AI’s ability to affect large segments of society—decisions about insurance c
 
 ### 3.2 The Question of Knowing
 
-> “Do we know how the machine makes the decision? Can we predict the decision? Can we explain the decision?” citeturn1file0
+> “Do we know how the machine makes the decision? Can we predict the decision? Can we explain the decision?”  
 
 Ethical challenges are compounded by the “black box” nature of many AI models. If even the system’s creators struggle to interpret how it arrives at certain outputs, transparency and accountability suffer.
 
@@ -979,11 +979,11 @@ Ethical challenges are compounded by the “black box” nature of many AI model
 
 ### 3.3 Is It the Machine or the Human?
 
-> “Does ethics arise because of the use the machine is put to? Or is it because who puts it to use?” citeturn1file0
+> “Does ethics arise because of the use the machine is put to? Or is it because who puts it to use?”  
 
 This poses a fundamental question: is the ethical dilemma located in the *technology* itself or in the *human context of its usage*? The text further asks:
 
-> “Is the question: what end the machine is serving or whose end the machine is serving?” citeturn1file0
+> “Is the question: what end the machine is serving or whose end the machine is serving?”  
 
 #### Analysis
 - **Ends vs. Means**: This resonates with Immanuel Kant’s moral principle: “Treat humanity…never merely as a means to an end, but always at the same time as an end.” If humans use AI purely as a means to exploit others (e.g., invasive data gathering), the moral failing may rest on those human intentions.
@@ -991,7 +991,7 @@ This poses a fundamental question: is the ethical dilemma located in the *techno
 
 ### 3.4 Speed of Development
 
-> “AI develops faster, ethics always trails. Our ability to create, innovate, and process data has outstripped our control of Data.” citeturn1file0
+> “AI develops faster, ethics always trails. Our ability to create, innovate, and process data has outstripped our control of Data.”  
 
 This point captures the *tech‐ethics lag*: new technologies often outpace regulatory frameworks and ethical guidelines. Innovations appear so quickly that society struggles to shape them responsibly.
 
@@ -1002,7 +1002,7 @@ Social media platforms introduced deepfake technology before any robust ethical 
 
 ### 3.5 Superintelligence & the Problem of Control
 
-> “Is it because of superintelligence and the problem of control: General intelligent machines could be faster, maybe able to replicate, may have values where it wants more copies of its own self.” citeturn1file0
+> “Is it because of superintelligence and the problem of control: General intelligent machines could be faster, maybe able to replicate, may have values where it wants more copies of its own self.”  
 
 Though it may sound futuristic, the possibility of AI surpassing human intelligence (artificial general intelligence, or AGI) raises existential risk concerns: how do we ensure it aligns with human values if it becomes more capable than us? The text hypothesizes scenarios where an advanced AI might replicate or have goals contrary to human well‐being.
 
@@ -1014,7 +1014,7 @@ Though it may sound futuristic, the possibility of AI surpassing human intellige
 
 ### 3.6 Epistemic Reasons
 
-> “AI is altering the way we interpret and interact with the environment and how we know the world.” citeturn1file0
+> “AI is altering the way we interpret and interact with the environment and how we know the world.”  
 
 The text also notes that AI changes the *epistemic* foundations—our ways of knowing. It challenges traditional scientific methods by introducing massive data analytics, predictive models, and sometimes non‐intuitive correlations that upend conventional theories.
 
@@ -1025,19 +1025,19 @@ Consider climate modeling. AI can process huge datasets and find complex pattern
 
 ### 3.7 Time
 
-> “The direction and the development of AI is unpredictable. Can we use the ethical values of now to predict the use of machines in the future?” citeturn1file0
+> “The direction and the development of AI is unpredictable. Can we use the ethical values of now to predict the use of machines in the future?”  
 
 We face temporal challenges: today’s moral frameworks might not remain suitable as technology evolves. The text suggests a tension between the rapidly changing technological landscape and moral theories that might need constant recalibration.
 
 #### Analysis
 - **Ethical Flexibility**: Philosophical systems often rely on stable principles (e.g., utilitarianism’s “greatest good” or Kant’s categorical imperative). If the context changes drastically (e.g., AI drastically shifts labor markets or redefines intelligence), we may need to adapt or reinterpret these principles.
-- **Resource Allocation**: The text hints: “Would we have the resources to cater to the needs of the development of AI?” (citeturn1file0). Building robust ethical oversight infrastructure might require significant funding, global cooperation, and time—none of which is guaranteed.
+- **Resource Allocation**: The text hints: “Would we have the resources to cater to the needs of the development of AI?” ( ). Building robust ethical oversight infrastructure might require significant funding, global cooperation, and time—none of which is guaranteed.
 
 ---
 
 ### 3.8 Nature of Ethics: Universal vs. Contextual
 
-> “Is ethics universal? Contextual? Relative? Would the problems of AI in India be different from other countries?” citeturn1file0
+> “Is ethics universal? Contextual? Relative? Would the problems of AI in India be different from other countries?”  
 
 By raising this question, the notes draw attention to cultural and societal differences. Ethical frameworks that work in one context (e.g., Western liberal democracies) might not translate seamlessly elsewhere. Additionally, the text observes that our ethical intuitions and theories have developed over centuries of human‐to‐human interaction—and that might shift dramatically if AI surpasses human intelligence.
 
@@ -1050,25 +1050,25 @@ By raising this question, the notes draw attention to cultural and societal diff
 
 Finally, the notes list explicit challenges:
 
-> “How do we model ethics? Should we use universal frameworks?” citeturn1file0
+> “How do we model ethics? Should we use universal frameworks?”  
 
 **Modeling Ethics**: There is an ongoing debate on whether we should attempt to encode moral principles into AI (top‐down approach) or if AI should “learn” ethical behavior by observing social norms (bottom‐up approach). The text hints at potential pitfalls in either route.
 
 ### 4.1 Universal Frameworks vs. Cultural Differences
 
-> “Societal/cultural frameworks (Is moral machine experiment correct?)” citeturn1file0
+> “Societal/cultural frameworks (Is moral machine experiment correct?)”  
 
 The “Moral Machine” experiment, popularized by MIT, asked people worldwide how a self‐driving car should respond in life‐and‐death traffic scenarios. Responses varied significantly across cultures, suggesting that imposing a single, universal set of moral rules might alienate or misrepresent some societies.
 
 ### 4.2 Mathematical Modeling
 
-> “What is the way to model ethics mathematically? Are ethical theories amenable to mathematical modelling?” citeturn1file0
+> “What is the way to model ethics mathematically? Are ethical theories amenable to mathematical modelling?”  
 
 This is a key philosophical and technical question. Some frameworks, like utilitarianism (maximizing overall well‐being), might appear more straightforward to translate into an algorithm than virtue ethics or deontological principles, which revolve around character and duties. But even utilitarian calculation can become intractably complex in real‐world scenarios—who defines what “well‐being” means, and how do we quantify it?
 
 ### 4.3 Conceptual Discrepancies in Intelligence, Autonomy, Agency
 
-> “The concepts of intelligence, autonomy, and agency used and understood by AI may be completely different than one used in Ethics.” citeturn1file0
+> “The concepts of intelligence, autonomy, and agency used and understood by AI may be completely different than one used in Ethics.”  
 
 AI researchers may treat “intelligence” as pattern recognition, problem‐solving, or learning capability. Ethical frameworks may treat “intelligence” as the capacity to understand moral principles and reflect upon them. This conceptual mismatch can hinder conversations about AI’s moral responsibilities or rights.
 
@@ -1105,7 +1105,7 @@ From the text, we can see that *ethics of AI* is not simply about adding a final
 - **Global and Cultural Dimensions**: Ethics cannot remain a siloed conversation; it depends on societal contexts and normative frameworks.  
 - **Future Directions**: Issues like superintelligence, accountability, and the changing epistemic landscape underscore that AI ethics is not static; it must evolve alongside the technology.
 
-In short, these notes make clear that ethics is *central*, not peripheral, to AI. They demand that we ask hard questions about how we design, deploy, and ultimately live with increasingly intelligent, autonomous systems. citeturn1file0
+In short, these notes make clear that ethics is *central*, not peripheral, to AI. They demand that we ask hard questions about how we design, deploy, and ultimately live with increasingly intelligent, autonomous systems.  
 # Notes 4
 ---
 
