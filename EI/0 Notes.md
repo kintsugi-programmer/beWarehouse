@@ -161,7 +161,7 @@
 The document is titled “Notes 1” and centers on **Ethics in AI**. It lists the broad themes, the evaluation system, and the general rules for the course. Each bullet point references a core area of study within AI ethics. 
 
 ### Why “Ethics in AI”?
-Ethics in AI looks at how artificial intelligence technologies, algorithms, and data collection impact society in terms of fairness, justice, privacy, accountability, and a host of other moral and ethical considerations. The course covers **both theoretical frameworks** (such as understanding what constitutes “the right thing to do”) and **practical implications** (like designing fair, transparent, and beneficial AI systems). citeturn0file0
+Ethics in AI looks at how artificial intelligence technologies, algorithms, and data collection impact society in terms of fairness, justice, privacy, accountability, and a host of other moral and ethical considerations. The course covers **both theoretical frameworks** (such as understanding what constitutes “the right thing to do”) and **practical implications** (like designing fair, transparent, and beneficial AI systems).  
 
 ---
 
@@ -189,35 +189,35 @@ Below is a deep-dive into each of these focal areas.
 
 ### 2.1. The Right Thing to Do
 - **Core Idea**: This introduces the fundamental philosophical question behind ethics: how do we determine “the right thing to do”? This question frames the rest of the course, as students need to learn not just technical details of AI but also the moral frameworks (e.g., utilitarianism, deontology, virtue ethics) that help us decide how AI should behave.
-- **Example**: A self-driving car faces a sudden dilemma: should it protect the occupant at all costs or minimize overall harm (e.g., potentially hitting fewer pedestrians)? The “right thing” might differ depending on the underlying ethical theory. citeturn0file0
+- **Example**: A self-driving car faces a sudden dilemma: should it protect the occupant at all costs or minimize overall harm (e.g., potentially hitting fewer pedestrians)? The “right thing” might differ depending on the underlying ethical theory.  
 
 ---
 
 ### 2.2. Why Ethics of AI?
 - **Core Idea**: AI can greatly enhance human capabilities, but it also carries risks: bias, invasion of privacy, manipulation, and unintended societal impacts. The question “Why Ethics of AI?” addresses why we must go beyond mere programming and technical performance to analyze how AI aligns with ethical values.
 - **Quote from the Notes**: While not an explicit quote in the document, it repeatedly emphasizes the notion of ensuring “we do not plagiarise” or cause harm—this is part of a broader ethical approach that highlights responsibility. 
-- **Reference**: “The Right thing to do,” from the bullet above, ties in seamlessly here. If we understand *why* ethics is essential, we can better pursue *what* is ethically correct in an AI context. citeturn0file0
+- **Reference**: “The Right thing to do,” from the bullet above, ties in seamlessly here. If we understand *why* ethics is essential, we can better pursue *what* is ethically correct in an AI context.  
 
 ---
 
 ### 2.3. Is Big Data Value Neutral? Ethics of Big Data
 - **Core Idea**: At first glance, “big data” might seem like an objective, neutral resource. But whenever data is collected, processed, or used, it can contain hidden biases and value judgments. The phrase “Is Big Data Value Neutral?” challenges the assumption that large-scale datasets are purely factual. Instead, it raises questions about **who collects the data**, **why** they collect it, and **how** it is being interpreted.
 - **Example**: A company that aggregates social media data to determine credit risk might inadvertently discriminate against certain demographics if the data (and the algorithms) reflect historical prejudices. 
-- **Important Quote**: The document asks: “Is Big Data Value Neutral?” and references the “Ethics of Big Data,” pointing to the moral obligations in data use. citeturn0file0
+- **Important Quote**: The document asks: “Is Big Data Value Neutral?” and references the “Ethics of Big Data,” pointing to the moral obligations in data use.  
 
 ---
 
 ### 2.4. The Opacity of Algorithms: Fairness and Transparency
 - **Core Idea**: Many AI algorithms, especially deep learning models, are “black boxes” whose decision-making processes can be difficult to interpret. Such opacity raises concerns about fairness—are the models discriminating based on race, gender, or other protected attributes? 
 - **Transparency**: The course will discuss if and how to make these algorithms explainable and transparent. Transparency includes letting people know they are interacting with an AI system, clarifying why certain decisions are made, and showing the underlying logic or data used in the decision process.
-- **Real-World Example**: Credit-scoring algorithms that do not reveal why a certain user is denied credit, or hiring algorithms that rank candidates but never explain their rationale. Lack of transparency leads to challenges in detecting bias. citeturn0file0
+- **Real-World Example**: Credit-scoring algorithms that do not reveal why a certain user is denied credit, or hiring algorithms that rank candidates but never explain their rationale. Lack of transparency leads to challenges in detecting bias.  
 
 ---
 
 ### 2.5. Responsibility and Explainability
 - **Core Idea**: Closely related to fairness and transparency is the question of **who is responsible when AI goes wrong**. Is it the developer, the company that deploys it, or the AI itself (through some notion of artificial agency)? 
 - **Explainability** is a step toward responsibility. If a system can explain its outputs in a human-understandable way, it becomes easier to hold the right parties accountable. 
-- **Quote from the Document**: While not a direct quote, the topics clearly list “Responsibility and Explainability” as a dedicated bullet, suggesting a major component of the course. citeturn0file0
+- **Quote from the Document**: While not a direct quote, the topics clearly list “Responsibility and Explainability” as a dedicated bullet, suggesting a major component of the course.  
 
 ---
 
@@ -226,27 +226,27 @@ Below is a deep-dive into each of these focal areas.
 - **Examples**: 
   - **Social Media**: Users uploading personal photos inadvertently granting usage rights to the platform.
   - **Healthcare**: Patients sharing medical records—should these be used for research without their explicit knowledge or only under strict anonymization protocols?
-- **Quote/Reference**: The course aims to unpack “Privacy and the Question of Data Ownership” because it is integral to building ethical AI that respects user autonomy. citeturn0file0
+- **Quote/Reference**: The course aims to unpack “Privacy and the Question of Data Ownership” because it is integral to building ethical AI that respects user autonomy.  
 
 ---
 
 ### 2.7. Ethics and the Design of Social Media
 - **Core Idea**: Social media platforms leverage AI to recommend content, moderate posts, and personalize user experiences. Ethical dilemmas arise around **filter bubbles**, **echo chambers**, **mental health implications**, and **manipulative design** (e.g., addictive features). 
 - **Real-World Example**: Recommendation algorithms that only show users content they already agree with, leading to polarization and misinformation. 
-- **Why It Matters**: Understanding how design choices in social media can propagate harmful social consequences is vital to designing more responsible systems. citeturn0file0
+- **Why It Matters**: Understanding how design choices in social media can propagate harmful social consequences is vital to designing more responsible systems.  
 
 ---
 
 ### 2.8. Ethics of AI in Healthcare
 - **Core Idea**: AI in healthcare can diagnose diseases, propose treatments, and manage patient data. With these benefits come ethical questions: do algorithms inadvertently discriminate? Are diagnoses transparent to doctors/patients? How are patient data and consent handled? 
-- **Example**: An AI system recommending a certain cancer treatment, but not being transparent about the studies or the data behind its decision. This can impact patient trust and legal liability. citeturn0file0
+- **Example**: An AI system recommending a certain cancer treatment, but not being transparent about the studies or the data behind its decision. This can impact patient trust and legal liability.  
 
 ---
 
 ### 2.9. Ethics of Robots
 - **Core Idea**: Robotic systems (e.g., humanoid robots, home assistants) raise questions of autonomy and moral standing. If a robot learns from its environment, to what extent can it be considered morally responsible for its actions?
 - **Discussion**: Topics might include the emotional bond humans form with robots, ethical constraints on how robots interact with vulnerable populations, and robots in hazardous industries. 
-- **Quote/Reference**: The phrase “Ethics of Robots” signals that the course will tackle these fundamental concerns about the nature and rights (or non-rights) of machines. citeturn0file0
+- **Quote/Reference**: The phrase “Ethics of Robots” signals that the course will tackle these fundamental concerns about the nature and rights (or non-rights) of machines.  
 
 ---
 
@@ -255,14 +255,14 @@ Below is a deep-dive into each of these focal areas.
   1. **Self-driving Cars**: Trolley-problem-style dilemmas in real traffic, liability questions, and the standards for safety.
   2. **Warfare**: Autonomous weapons deciding who to target. Is it ethically permissible to deploy lethal autonomous weapons without direct human control?
 - **Example**: Debates around the use of drones that can independently select targets. International bodies discuss whether to ban such weapons. 
-- **Quote/Reference**: The bullet specifically mentions “Ethics of Autonomous Systems (Self-driving cars and Warfare).” citeturn0file0
+- **Quote/Reference**: The bullet specifically mentions “Ethics of Autonomous Systems (Self-driving cars and Warfare).”  
 
 ---
 
 ### 2.11. Embedding Ethics in AI
 - **Core Idea**: How do we instill moral principles or constraints directly into AI systems? This might include value alignment techniques, rule-based restrictions, or robust auditing. 
 - **Practical Angle**: Designing frameworks so that an AI’s objectives and behaviors match human ethical considerations—sometimes known as the “alignment problem.” 
-- **Quote**: “Embedding Ethics in AI” is a recognized challenge: engineers often ask *how* to incorporate moral guidelines into code. citeturn0file0
+- **Quote**: “Embedding Ethics in AI” is a recognized challenge: engineers often ask *how* to incorporate moral guidelines into code.  
 
 ---
 
@@ -270,13 +270,13 @@ Below is a deep-dive into each of these focal areas.
 - **Core Idea**: A more direct extension of “embedding ethics.” If machines can act independently, how do we ensure they “choose” moral outcomes? 
 - **Contrast**: This goes beyond merely analyzing data ethically; it moves toward engineering machines that follow ethical imperatives even in unforeseen circumstances. 
 - **Example**: A “moral machine” might be a nursing robot that prioritizes patient well-being over cost-saving, or a self-driving car that respects all traffic laws and moral constraints. 
-- **Quote/Reference**: The course bullet “Designing Moral Machines” is broad but central to AI ethics research. citeturn0file0
+- **Quote/Reference**: The course bullet “Designing Moral Machines” is broad but central to AI ethics research.  
 
 ---
 
 ### 2.13. AI for Social Good
 - **Core Idea**: While many points address the pitfalls of AI, “AI for Social Good” highlights how AI can *positively* impact society: disaster response, medical breakthroughs, educational tools, climate change modeling, poverty alleviation, etc. 
-- **Quote/Reference**: The bullet states “AI for Social Good,” suggesting an optimistic focus on leveraging AI ethically to bring tangible societal benefits. citeturn0file0
+- **Quote/Reference**: The bullet states “AI for Social Good,” suggesting an optimistic focus on leveraging AI ethically to bring tangible societal benefits.  
 
 ---
 
@@ -292,7 +292,7 @@ The document specifies how UG students will be evaluated in this course. The bre
 
 Here, “Response Paper (3) – 15” likely means students have to produce three separate response papers; the total of these is worth 15 points. It is not explicitly stated whether each paper is worth 5 points or if it is aggregated differently, but presumably each paper might carry equal weight.
 
-**Key Insight**: The varied nature of evaluation—individual assignments, group projects, final exam, participation, and response papers—indicates that the course aims to engage students both in collective, collaborative thinking (group project) and personal reflection (individual and response papers). citeturn0file0
+**Key Insight**: The varied nature of evaluation—individual assignments, group projects, final exam, participation, and response papers—indicates that the course aims to engage students both in collective, collaborative thinking (group project) and personal reflection (individual and response papers).  
 
 ---
 
@@ -310,10 +310,10 @@ For PG and PhD students, the evaluation structure is slightly different:
 - PG/PhD students have to do **two individual assignments** instead of just one. 
 - They deliver multiple presentations; only two best out of three are counted for the final grade. 
 - They have more response papers (four possible, best three counted).
-- They have an **Individual Project** worth 25 points, distinct from the UG Group Project. citeturn0file0
+- They have an **Individual Project** worth 25 points, distinct from the UG Group Project.  
 
 **Why the Different Structure?**  
-Graduate-level courses often demand more in-depth individual research and presentation skills, reflecting a higher level of specialization and academic rigor. citeturn0file0
+Graduate-level courses often demand more in-depth individual research and presentation skills, reflecting a higher level of specialization and academic rigor.  
 
 ---
 
@@ -322,19 +322,19 @@ Graduate-level courses often demand more in-depth individual research and presen
 The document also lists general rules for the course:
 
 1. **No Plagiarism**  
-   - Direct statement: “Please do not plagiarise in the course as it will get you into trouble.” citeturn0file0  
+   - Direct statement: “Please do not plagiarise in the course as it will get you into trouble.”    
    - *Analysis*: Academic integrity is crucial, especially in an ethics class. 
 
 2. **Teaching Fellows (TF) and TAs**  
-   - “We will have a TF and TAs for the course whose help you can seek at any time.” citeturn0file0  
+   - “We will have a TF and TAs for the course whose help you can seek at any time.”    
    - They have office hours where students can discuss problems or clarify doubts. If students need to speak to the main instructor, they should seek an appointment. 
 
 3. **Deadlines and Extensions**  
-   - “All deadlines and assignments will be discussed and announced in advance. Please do not negotiate for an extension.” citeturn0file0  
+   - “All deadlines and assignments will be discussed and announced in advance. Please do not negotiate for an extension.”    
    - *Interpretation*: The instructor sets firm deadlines to teach responsibility and time-management—key ethical values in academic work. 
 
 4. **Mental Health and Stress**  
-   - “If at any time you are feeling stressed out feel free to reach out…” citeturn0file0  
+   - “If at any time you are feeling stressed out feel free to reach out…”    
    - This underscores the importance of well-being and the open-door policy for students who may need emotional or academic support. 
 
 ---
@@ -347,7 +347,7 @@ Bringing it all together:
 - **Hands-On Evaluation**: The evaluation structure (assignments, projects, papers) ensures students engage with real-world examples and develop an in-depth understanding, rather than only learning abstract concepts.
 - **Rules Emphasize Integrity and Well-being**: The explicit mention of plagiarism, seeking help from TAs/TF, and addressing stress points to a supportive environment where ethical conduct is expected not just in AI but also in the students’ academic work.
 
-The note also reminds students that everything from data collection to algorithm design has ethical implications and that these are not optional considerations—rather, they define the trustworthiness and societal impact of AI systems. citeturn0file0
+The note also reminds students that everything from data collection to algorithm design has ethical implications and that these are not optional considerations—rather, they define the trustworthiness and societal impact of AI systems.  
 
 ---
 
@@ -374,7 +374,7 @@ Each of these points is crucial to understanding the broader mission of the cour
 - Students will be evaluated through a variety of assignments aimed at ensuring deep engagement with ethical, technical, and societal dimensions of AI.
 - The course environment prioritizes **integrity, transparency, responsibility,** and **student well-being**—values that mirror the ethical principles the curriculum aims to teach.
 
-No part of this document is superfluous: each bullet in the “Topics to be covered” is an essential puzzle piece in the broader conversation about how AI can and should serve the greater good while minimizing unintended negative consequences. citeturn0file0
+No part of this document is superfluous: each bullet in the “Topics to be covered” is an essential puzzle piece in the broader conversation about how AI can and should serve the greater good while minimizing unintended negative consequences.  
 # Notes 2
 ---
 
@@ -382,14 +382,14 @@ No part of this document is superfluous: each bullet in the “Topics to be cove
 
 The notes begin by asking:
 
-> “How do we decide what is the right thing to do? What are the sources of our obligations? How do we know what is the right thing to do?” citeturn0file0
+> “How do we decide what is the right thing to do? What are the sources of our obligations? How do we know what is the right thing to do?”  
 
 This cluster of questions underscores the complexity of moral decision‐making. The text immediately situates ethics as a domain of inquiry into “obligations” and the methods by which we identify, recognize, or justify them. Instead of assuming a universal, one‐size‐fits‐all answer, the notes highlight that moral action can be influenced by instinct, reason, training, or social context.
 
 ### Analysis
 
 - **Obligations vs. Preferences**: The word “obligation” typically refers to moral duties that bind us, as opposed to personal preferences (e.g., “I like chocolate ice cream” is a preference, whereas “I am obligated to be honest” is a moral imperative). This distinction is crucial to clarify what kind of “right thing” we are talking about—something that we owe to ourselves, to others, or to society.
-- **Role of Education or Training**: The text raises the question: “How do we train our moral intuitions to act in the right direction?” citeturn0file0. This implies that morality is not always an inborn capacity but may require cultivation—through education, reflective practice, or critical thinking.
+- **Role of Education or Training**: The text raises the question: “How do we train our moral intuitions to act in the right direction?”  . This implies that morality is not always an inborn capacity but may require cultivation—through education, reflective practice, or critical thinking.
 
 A concrete example to illustrate this might be a child learning about telling the truth. At first, they might not fully understand why lying is wrong, but through consistent moral training (parental guidance, religious instruction, cultural norms), they develop an intuitive aversion to lying. Over time, this becomes “the right thing” to do in their worldview.
 
@@ -399,11 +399,11 @@ A concrete example to illustrate this might be a child learning about telling th
 
 Next, the notes pose a series of questions:
 
-> “Do you instinctively know the right from the wrong? Or do you reason the right from the wrong? Are all moral actions about instincts or reasons?” citeturn0file0
+> “Do you instinctively know the right from the wrong? Or do you reason the right from the wrong? Are all moral actions about instincts or reasons?”  
 
 And further:
 
-> “Is moral thinking and action a matter of training? How then one should be trained? What sort of reflection is required for moral training? In what direction should one be thinking?” citeturn0file0
+> “Is moral thinking and action a matter of training? How then one should be trained? What sort of reflection is required for moral training? In what direction should one be thinking?”  
 
 ### Analysis
 
@@ -419,7 +419,7 @@ An illustrative example can be found in professional ethics training (e.g., medi
 
 ## 3. Universality vs. Relativism
 
-> “What are the ways that we can know what is the right? Is it same for everyone? Is it different from one individual to the other? Is it dependent on the context? Is it dependent on the culture? Is it different for the west and the east?” citeturn0file0
+> “What are the ways that we can know what is the right? Is it same for everyone? Is it different from one individual to the other? Is it dependent on the context? Is it dependent on the culture? Is it different for the west and the east?”  
 
 Here, the text introduces the debate over universal moral principles versus moral relativism. It questions whether moral truths or obligations might vary across cultures, societies, or even individuals.
 
@@ -427,7 +427,7 @@ Here, the text introduces the debate over universal moral principles versus mora
 
 - **Universalism**: Some moral theories (e.g., Kantian ethics, various religious traditions) hold that moral truths apply universally—regardless of culture, context, or personal preference. According to this view, certain actions are always right or always wrong.
 - **Relativism**: On the other side, moral relativism suggests that standards of right and wrong depend on cultural norms, societal pressures, or personal contexts. An action might be morally acceptable in one culture but not in another.
-- **Contextual Nuances**: The notes’ question “Is it dependent on the circumstances one is exposed to?” citeturn0file0 acknowledges that even if some moral principles seem universal, their *application* can vary widely due to cultural conditions or different life circumstances.
+- **Contextual Nuances**: The notes’ question “Is it dependent on the circumstances one is exposed to?”   acknowledges that even if some moral principles seem universal, their *application* can vary widely due to cultural conditions or different life circumstances.
 
 An everyday example: Attitudes toward social norms around dress codes or dietary restrictions might differ. A specific act—like eating pork—could be morally neutral in one culture while being strongly frowned upon in another, for either religious or cultural reasons. Thus, the “rightness” of that action is influenced by context.
 
@@ -435,11 +435,11 @@ An everyday example: Attitudes toward social norms around dress codes or dietary
 
 ## 4. Enumerating the Sources of Moral Obligation
 
-The text offers nine specific “sources of moral obligation” citeturn0file0. These are not necessarily exhaustive, but each one captures a significant moral motivation that could drive our actions.
+The text offers nine specific “sources of moral obligation”  . These are not necessarily exhaustive, but each one captures a significant moral motivation that could drive our actions.
 
 ### (i) Conforming to Social Norms and Behavior
 
-> “(i) Conforming to social norms and behaviour (Deviance may be a costly affair/ we are trained to act in certain ways so do act out of habit etc.)” citeturn0file0
+> “(i) Conforming to social norms and behaviour (Deviance may be a costly affair/ we are trained to act in certain ways so do act out of habit etc.)”  
 
 #### Analysis
 1. **Social Pressure and Habits**: Often, people act morally (or at least in line with certain norms) because violating these norms leads to punishment, ostracism, or disapproval. We might hold a door open for someone because society teaches us this is polite.
@@ -451,7 +451,7 @@ An example is the practice of queuing in public spaces. People wait their turn l
 
 ### (ii) Conforming to Religious or Sect Norms
 
-> “(ii) Conform to certain other norms (religious/ that of a sect/ creed/ caste etc.) … there might be sects which one joins voluntarily while many acts done within the social realm may not be a product of voluntary membership.” citeturn0file0
+> “(ii) Conform to certain other norms (religious/ that of a sect/ creed/ caste etc.) … there might be sects which one joins voluntarily while many acts done within the social realm may not be a product of voluntary membership.”  
 
 #### Analysis
 1. **Voluntary vs. Involuntary Membership**: Religion or sectarian affiliation can be a source of moral rules—dietary laws, worship obligations, charitable giving—that one follows either by birth (involuntary) or by conversion (voluntary).
@@ -463,7 +463,7 @@ A real‐life example might be a person fasting during Ramadan. They could do so
 
 ### (iii) Producing the Best Consequences
 
-> “(iii) Those are the ones that produce the best consequences.” citeturn0file0
+> “(iii) Those are the ones that produce the best consequences.”  
 
 #### Analysis
 1. **Consequentialism**: This point directly refers to moral theories like utilitarianism, which argue that the right action is the one that yields the greatest good for the greatest number.
@@ -475,7 +475,7 @@ An example: If you have to decide how to allocate a limited budget in a public h
 
 ### (iv) Conforming to Norms of Reason
 
-> “(iv) They conform to norms of reason.” citeturn0file0
+> “(iv) They conform to norms of reason.”  
 
 #### Analysis
 1. **Rationalist Traditions**: This connects to philosophers (like Kant) who argue that moral duty is grounded in rational consistency. For instance, you do not lie because lying cannot be universalized without contradiction.
@@ -487,7 +487,7 @@ An example might be refusing to break a promise because you realize that if *eve
 
 ### (v) Actions That “Good People” Do
 
-> “(v) These are the actions that good people do. (we conform to certain standards of goodness)” citeturn0file0
+> “(v) These are the actions that good people do. (we conform to certain standards of goodness)”  
 
 #### Analysis
 1. **Virtue Ethics**: This idea resonates strongly with virtue ethics, which focuses on the character of the moral agent. Here, the question is less “What should I do?” and more “What kind of person should I be?”
@@ -499,7 +499,7 @@ For instance, if we admire a humanitarian like Mother Teresa, we might volunteer
 
 ### (vi) Mutual Agreement, Promises, or Contracts
 
-> “(vi) Because we mutually agreed to act in certain ways (promises/contracts)” citeturn0file0
+> “(vi) Because we mutually agreed to act in certain ways (promises/contracts)”  
 
 #### Analysis
 1. **Social Contract Theory**: Philosophers like Thomas Hobbes or John Locke proposed that moral and political obligations arise from a (real or hypothetical) contract that people make to escape a “state of nature.”
@@ -511,7 +511,7 @@ A common example is signing a lease agreement: both tenant and landlord promise 
 
 ### (vii) Caring for Someone
 
-> “(vii) Because we care for someone” citeturn0file0
+> “(vii) Because we care for someone”  
 
 #### Analysis
 1. **Ethics of Care**: This taps into moral theories emphasizing relationships, empathy, and the emotional bonds we form with others (often associated with feminist ethics).
@@ -523,7 +523,7 @@ A day‐to‐day example would be cooking a meal for a friend who is sick. You d
 
 ### (viii) Sympathy/Empathy
 
-> “(viii) Because we feel sympathetic/empathetic towards them.” citeturn0file0
+> “(viii) Because we feel sympathetic/empathetic towards them.”  
 
 #### Analysis
 1. **Emotional Basis**: Closely related to the previous point, this source of moral action highlights the power of empathy—feeling another’s pain or situation as if it were your own.
@@ -535,7 +535,7 @@ An example: You see a stray animal injured on the street. Empathy compels you to
 
 ### (ix) Acting in Self‐Interest Without Harming Others
 
-> “(ix) We decide to act in ways that benefit ourselves without harming anyone.” citeturn0file0
+> “(ix) We decide to act in ways that benefit ourselves without harming anyone.”  
 
 #### Analysis
 1. **Ethical Egoism (Tempered)**: This suggests a version of moral motivation where self‐interest is central, but we limit our actions so as not to harm others. It’s not purely selfish: it recognizes moral boundaries that keep our self‐interest from infringing on others.
@@ -563,7 +563,7 @@ The notes remind us that moral decisions may draw on *multiple* sources at once.
 
 ## 6. Conclusion: Reflective Moral Practice
 
-The driving theme in these notes is **reflective moral practice**. Questions such as “How do we know what is right?” and “In what direction should one be thinking?” (citeturn0file0) push us toward a lifelong process of questioning, analyzing, and refining our moral intuitions. Rather than offering a single prescriptive doctrine, the text outlines *multiple* points of reference—social norms, religion, consequences, reason, virtue, promises, care, empathy, and self‐interest (tempered by harm avoidance).
+The driving theme in these notes is **reflective moral practice**. Questions such as “How do we know what is right?” and “In what direction should one be thinking?” ( ) push us toward a lifelong process of questioning, analyzing, and refining our moral intuitions. Rather than offering a single prescriptive doctrine, the text outlines *multiple* points of reference—social norms, religion, consequences, reason, virtue, promises, care, empathy, and self‐interest (tempered by harm avoidance).
 
 By encompassing these different angles, the notes show that morality is:
 - Not *only* about following rules,
@@ -582,7 +582,7 @@ A final example to unify everything: Imagine volunteering in your local communit
 - **Contextual/Universal Tensions**: The text invites us to consider whether moral truths are universal or context‐dependent, highlighting the complexity of real‐world ethics.
 - **Combination in Practice**: In most real situations, multiple sources of obligation combine to form the mosaic of our moral actions.
 
-In short, “Notes 2” provides a panoramic view of the factors driving moral decision‐making. It challenges us to reflect on which combination of factors influences us personally and how we might responsibly cultivate our moral agency in an ever‐changing social and cultural environment. citeturn0file0
+In short, “Notes 2” provides a panoramic view of the factors driving moral decision‐making. It challenges us to reflect on which combination of factors influences us personally and how we might responsibly cultivate our moral agency in an ever‐changing social and cultural environment.  
 # Notes 3
 ---
 

@@ -49,7 +49,7 @@
 **Argument Overview**  
 Coeckelbergh starts by stating that artificial intelligence (AI)—particularly machine learning systems—creates pressing concerns about who should be held accountable for *good* and *bad* outcomes once decisions are automated. He notes the “urgent” character of these questions, citing examples like self-driving cars, automated financial trading, or Boeing’s autopilot systems, which lead to real and sometimes tragic consequences. The key ethical puzzle is:
 
-> “Given that AI enables society to automate more tasks, who or what is responsible for the benefits and harms?” citeturn0file0
+> “Given that AI enables society to automate more tasks, who or what is responsible for the benefits and harms?”  
 
 **Two Conditions from Aristotle**  
 He uses *Aristotelian* criteria for responsibility—**(1) control** and **(2) knowledge**—to anchor the discussion. Traditionally, we say a person is responsible for an action if:
@@ -67,14 +67,14 @@ On the one hand, software can “do” things that look agent-like. On the other
 **Machines Are Not (Yet) Responsible Agents**  
 While acknowledging the debate on whether AI might ever *qualify* as a full moral agent, Coeckelbergh assumes:
 
-> “AI technologies can have agency but do not meet traditional criteria for moral agency and moral responsibility.” citeturn0file0
+> “AI technologies can have agency but do not meet traditional criteria for moral agency and moral responsibility.”  
 
 Hence, only humans can bear responsibility. Machines lack consciousness or freedom in the strong sense.
 
 **The “Many Hands” Problem**  
 Yet even if we insist responsibility *must* rest with humans, there remains a thorny issue: advanced AI applications typically involve a large network of people: designers, coders, managers, corporate owners, end users, regulators, data providers, and so on. Coeckelbergh references the *problem of many hands*:
 
-> “Who is responsible? It could be the developers of the software, the car company, the user, the regulator … and within the category ‘software development’ there may be a lot of people involved.” citeturn0file0
+> “Who is responsible? It could be the developers of the software, the car company, the user, the regulator … and within the category ‘software development’ there may be a lot of people involved.”  
 
 In short, so many individuals play a part that assigning moral or legal liability to one or two specific people is incredibly difficult. This is made even more complicated by:
 
@@ -84,7 +84,7 @@ In short, so many individuals play a part that assigning moral or legal liabilit
 **“Many Things” Complicate It Further**  
 Coeckelbergh adds that it is not *only* “many hands”; it is also “many *things*.” AI technology is layered on top of sensors, other pieces of software, mechanical subsystems, or user interfaces. A malfunction in a sensor can cause an accident that we might hastily blame on the AI. Meanwhile, a glitch in the dataset pipeline could introduce bias. As he puts it:
 
-> “One of the problems with technological action is that there are usually many people causally involved … but also many devices, programs, and interacting parts.” citeturn0file0
+> “One of the problems with technological action is that there are usually many people causally involved … but also many devices, programs, and interacting parts.”  
 
 Hence, the “black box” of AI is part of an *even bigger* network of machinery and code. This means effective responsibility-attribution demands understanding every layer of software/hardware, plus how they interact.
 
@@ -94,14 +94,14 @@ Hence, the “black box” of AI is part of an *even bigger* network of machiner
 **Aristotle’s Second Criterion: No Ignorance**  
 Following Aristotle’s *Nicomachean Ethics*, Coeckelbergh says an agent must not be ignorant of what they are doing:
 
-> “A man may be ignorant ... of who he is, what he is doing, what or whom he is acting on … and sometimes what (instrument) he is doing it with.” citeturn0file0
+> “A man may be ignorant ... of who he is, what he is doing, what or whom he is acting on … and sometimes what (instrument) he is doing it with.”  
 
 To adapt this to AI, a software engineer (or a judge using an AI tool) might *think* they know how the program works, but because machine-learning systems can be so opaque, they lack full clarity on *why* the system reaches specific decisions. Even developers can be “ignorant” of the machine’s internal reasoning, especially in deep learning systems.
 
 **Examples of “Black Box” Systems**  
 Machine learning, especially deep neural networks, can produce outputs that surprise even their creators. A so-called *self-driving car* may not be able to articulate the chain of reasoning behind, say, turning left too late. Likewise, a judge or parole officer using AI-based “risk scoring” might not grasp *exactly* how the system weighted various factors. Coeckelbergh frames it this way:
 
-> “[The user] suffers from the ignorance of not sufficiently knowing their instrument … they do not know what they do when they give a recommendation to someone based on this kind of AI.” citeturn0file0
+> “[The user] suffers from the ignorance of not sufficiently knowing their instrument … they do not know what they do when they give a recommendation to someone based on this kind of AI.”  
 
 Thus, there is a worry that the more complicated or “black box” the technology, the less users can meet the knowledge condition for moral responsibility. This sets up one rationale for “Explainable AI” (often shortened to “XAI” in other literature).
 
@@ -111,14 +111,14 @@ Thus, there is a worry that the more complicated or “black box” the technolo
 **Going Beyond Agency**  
 Standard debates often focus only on *agents* (those who do the action) and whether they have control or knowledge. Coeckelbergh argues that we forget the other side: the moral *patients* who are affected, harmed, or otherwise impacted by AI-driven outcomes. In a more *relational* framework:
 
-> “We should not neglect the problem of the addressee. Those to whom moral agents are responsible … who demand reasons for actions and decisions made by using AI.” citeturn0file0
+> “We should not neglect the problem of the addressee. Those to whom moral agents are responsible … who demand reasons for actions and decisions made by using AI.”  
 
 Here, he draws on the idea of “answerability.” Responsibility does not merely mean you *have* knowledge but that you must be prepared to *give* an account (to actual people impacted by your action).
 
 **Explainability as Answerability**  
 Coeckelbergh’s *fresh twist* is that it is not enough that a human developer or user personally understands the system’s output; they need to be able to *explain it to others*. A credit applicant denied a loan, a parole candidate kept in prison, or a passenger on an airplane that goes off-course is *owed* an explanation from the responsible humans. Hence:
 
-> “Explainability is not only a matter of knowledge on the part of the agent. … The agent needs to be able to explain to the patient why she does or did a particular action.” citeturn0file0
+> “Explainability is not only a matter of knowledge on the part of the agent. … The agent needs to be able to explain to the patient why she does or did a particular action.”  
 
 This *relational* dimension underscores the importance of designing AI systems and organizational processes so that an official—*not* the machine alone—can step forward to clarify (to real people) why a particular decision was reached.
 
@@ -151,7 +151,7 @@ These examples unify Coeckelbergh’s broader message about the complexities of 
 **Technical Solutions**  
 Coeckelbergh mentions the emerging field of *Explainable AI*, referencing methods like heatmaps or local interpretable model-agnostic explanations (LIME), though he does not dive deeply into their specifics. He does, however, stress that:
 
-> “Technical ‘explainability’ ... should be seen as something in the service of the more general ethical requirement of explainability and answerability on the part of the human agent.” citeturn0file0
+> “Technical ‘explainability’ ... should be seen as something in the service of the more general ethical requirement of explainability and answerability on the part of the human agent.”  
 
 **Legal or Regulatory Measures**  
 He also touches on how GDPR in Europe gives people a right to certain kinds of information but does *not* necessarily give a “right to an in-depth explanation.” Policymakers might need to extend these protections so that impacted individuals can ask “Why?” and actually get a reasoned answer. In his view, we may need:
@@ -164,7 +164,7 @@ He also touches on how GDPR in Europe gives people a right to certain kinds of i
 
 Coeckelbergh acknowledges that even the best frameworks may run up against historical, cultural, or structural injustices. Suppose an entire language and society exhibit deep biases that seep into text corpora. Suppose technology evolves so that no single actor can possibly reconstruct everything:
 
-> “Responsibility for AI and other technologies may be limited to some degree and has a tragic aspect.” citeturn0file0
+> “Responsibility for AI and other technologies may be limited to some degree and has a tragic aspect.”  
 
 He connects “tragedy” to the idea that there are sometimes no *perfect* solutions. *However*, he does not see that as a free pass to shirk moral reflection. Rather, individuals and institutions should do their part to improve transparency, anticipate biases, and remain accountable—even if they cannot guarantee the total elimination of harm.
 
@@ -180,7 +180,7 @@ Coeckelbergh’s key conclusion is that moral and legal discussions of AI respon
 
 He underlines that “responsibility as answerability” surpasses purely theoretical conceptions of control or intent, by foregrounding the *human-to-human* requirement that reasons or explanations be given:
 
-> “In the end, only humans can really explain and should explain what they decide and do.” citeturn0file0
+> “In the end, only humans can really explain and should explain what they decide and do.”  
 
 **Practical Prescriptions**  
 As a result, Coeckelbergh calls for:
@@ -219,7 +219,7 @@ Coeckelbergh cites these and more to demonstrate that AI ethics is interdiscipli
 ---
 ### Final Word
 
-This paper thus provides a *philosophically grounded, yet practically urgent* argument for viewing AI responsibility in light of classical ideas about moral control and knowledge, while *updating* them for large, fast, and opaque socio-technical systems. Coeckelbergh’s **relational justification of explainability** is his most distinctive insight: ultimately, if we cannot supply reasons or clarifications to those impacted by AI, *we* (the humans) have failed to exercise our moral responsibility—no matter how advanced the machine. citeturn0file0
+This paper thus provides a *philosophically grounded, yet practically urgent* argument for viewing AI responsibility in light of classical ideas about moral control and knowledge, while *updating* them for large, fast, and opaque socio-technical systems. Coeckelbergh’s **relational justification of explainability** is his most distinctive insight: ultimately, if we cannot supply reasons or clarifications to those impacted by AI, *we* (the humans) have failed to exercise our moral responsibility—no matter how advanced the machine.  
 
 # Stanford Encyclopedia of Philosophy (SEP) entry “Computing and Moral Responsibility” (updated Thu Feb 2, 2023)
 
