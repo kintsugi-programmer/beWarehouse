@@ -1,0 +1,22 @@
+﻿Class activity: Critical Evaluation
+Siddhant Bali
+2022496
+
+
+One mind
+Useability: 
+1.Attention span patterns recognition and processing
+2.Used in education industry and immersive experience in entertainment industry
+Accuracy: 
+1.Accuracy achieve at near 50% 
+2.within specific constraints and assumptions
+Accessibility:
+1.Accessible as used in normal smartphone cameras used by major population
+2.where its camera generate IPPG signals
+Ubiquity:
+        1.on further prospects, and controlled lighting and camera ,other equipments 
+        2.it can be generalised in users daily engagement activities in entertainment and eduction industry
+Scalability and robustness:
+        1.to avoid the extreme cases of burning sensations and heating issue 
+        2.the setup should be controlled 
+        3.and reiteration with proper orientation

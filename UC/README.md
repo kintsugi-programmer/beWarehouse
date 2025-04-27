@@ -248,6 +248,107 @@
   - [**📌 Applications of Accelerometers**](#-applications-of-accelerometers)
   - [**🔄 Gyroscopes: Measuring Rotational Motion**](#-gyroscopes-measuring-rotational-motion)
   - [**🎯 Conclusion: The Future of Motion Sensing in Ubiquitous Computing**](#-conclusion-the-future-of-motion-sensing-in-ubiquitous-computing)
+- [📡 **Lecture 14: Motion \& Activity Sensing in Ubiquitous Computing (UC)**](#-lecture-14-motion--activity-sensing-in-ubiquitous-computing-uc)
+    - [**🔍 Overview of the Lecture**](#-overview-of-the-lecture-10)
+  - [🌀 **Gyroscopes: Measuring Orientation \& Angular Velocity**](#-gyroscopes-measuring-orientation--angular-velocity)
+    - [**🔧 Mechanical Gyroscopes**](#-mechanical-gyroscopes)
+    - [**💫 MEMS Gyroscopes \& the Coriolis Effect**](#-mems-gyroscopes--the-coriolis-effect)
+  - [📊 **Orientation Axes: Roll, Pitch \& Yaw**](#-orientation-axes-roll-pitch--yaw)
+  - [🤖 **Human Activity Recognition (HAR)**](#-human-activity-recognition-har)
+    - [🏷️ **Key Characteristics of HAR Systems**](#️-key-characteristics-of-har-systems)
+    - [⚙️ **Challenges in HAR**](#️-challenges-in-har)
+  - [🔍 **Sensor Modalities for HAR**](#-sensor-modalities-for-har)
+  - [🔗 **Activity Recognition Chain (ARC)**](#-activity-recognition-chain-arc)
+  - [📌 **Applications \& Concrete Examples**](#-applications--concrete-examples)
+    - [📚 **References for Further Reading**](#-references-for-further-reading)
+- [📡 **Lecture 15: Motion \& Activity Sensing in Ubiquitous Computing (UC) — Module V (Part II)**](#-lecture-15-motion--activity-sensing-in-ubiquitous-computing-uc--module-v-part-ii)
+    - [**🔍 Overview of the Lecture**](#-overview-of-the-lecture-11)
+  - [📊 **UCI-HAR Dataset: Experimental Design \& Feature Extraction**](#-uci-har-dataset-experimental-design--feature-extraction)
+  - [🤔 **Critical Observation \& Drawback**](#-critical-observation--drawback)
+  - [🎯 **Exercise: Detecting Typing Activity via ACC/GYRO**](#-exercise-detecting-typing-activity-via-accgyro)
+  - [📡 **WiFi Sensing Fundamentals**](#-wifi-sensing-fundamentals)
+  - [🚶 **WiFi-Based HAR \& Fine-Grained Movement Detection**](#-wifi-based-har--fine-grained-movement-detection)
+    - [📚 **References for Further Reading**](#-references-for-further-reading-1)
+- [📡 **Lecture 16: Introduction to WiFi-Based Motion \& Activity Sensing**](#-lecture-16-introduction-to-wifi-based-motion--activity-sensing)
+    - [**🔍 Overview of the Lecture**](#-overview-of-the-lecture-12)
+  - [📶 **WiFi Channels \& Propagation**](#-wifi-channels--propagation)
+  - [🔍 **Channel State Information (CSI)**](#-channel-state-information-csi)
+  - [⚙️ **Enabling Technologies: MIMO \& OFDM**](#️-enabling-technologies-mimo--ofdm)
+    - [**1️⃣ MIMO (Multiple Input Multiple Output)**](#1️⃣-mimo-multiple-input-multiple-output)
+    - [**2️⃣ OFDM (Orthogonal Frequency Division Multiplexing)**](#2️⃣-ofdm-orthogonal-frequency-division-multiplexing)
+  - [🎥 **Comparison with Video-Based Sensing**](#-comparison-with-video-based-sensing)
+  - [🚀 **CSI-Based WiFi Sensing Applications**](#-csi-based-wifi-sensing-applications)
+  - [📈 **Case Study: WIFITUNED**](#-case-study-wifituned)
+  - [💡 **Key Takeaways \& Future Directions**](#-key-takeaways--future-directions)
+- [❤️‍🩹 **Lecture 17: Physiological Sensing in Ubiquitous Computing (UC) — Module VI (Part I)**](#️-lecture-17-physiological-sensing-in-ubiquitous-computing-uc--module-vi-part-i)
+    - [**🔍 Overview of the Lecture**](#-overview-of-the-lecture-13)
+  - [🩸 **1. What Are Physiological Signals?**](#-1-what-are-physiological-signals)
+  - [📈 **2. How to Record Physiological Signals?**](#-2-how-to-record-physiological-signals)
+    - [**Wearables \& Devices**](#wearables--devices)
+  - [⚕️ **3. Applications of Physiological Sensing**](#️-3-applications-of-physiological-sensing)
+  - [💡 **4. Deep Dive: Photoplethysmography (PPG)**](#-4-deep-dive-photoplethysmography-ppg)
+    - [**4.1 Principle of PPG**](#41-principle-of-ppg)
+    - [**4.2 PPG Probe Types**](#42-ppg-probe-types)
+    - [**4.3 Arterial Waveform Structure \& Derived Metrics**](#43-arterial-waveform-structure--derived-metrics)
+    - [**4.4 Measuring HR vs. BP: Parameter Guidelines**](#44-measuring-hr-vs-bp-parameter-guidelines)
+  - [📊 **5. Case Study: OneMind—Detecting Divided Attention in Mobile MOOC Learning**](#-5-case-study-oneminddetecting-divided-attention-in-mobile-mooc-learning)
+    - [**Problem Context**](#problem-context)
+    - [**OneMind Contribution**](#onemind-contribution)
+    - [**Solution Pipeline**](#solution-pipeline)
+    - [**Key Results**](#key-results)
+    - [**📝 Class Activity: Critical Evaluation**](#-class-activity-critical-evaluation)
+- [📡 **Lecture 18: Electrodermal Activity (EDA) in Physiological Sensing**](#-lecture-18-electrodermal-activity-eda-in-physiological-sensing)
+    - [**🔍 Overview of the Lecture**](#-overview-of-the-lecture-14)
+  - [💧 **1. What Is Electrodermal Activity?**](#-1-what-is-electrodermal-activity)
+  - [⚙️ **2. Measuring EDA: Exosomatic vs. Endosomatic**](#️-2-measuring-eda-exosomatic-vs-endosomatic)
+  - [📈 **3. EDA Signal Structure: Tonic \& Phasic Components**](#-3-eda-signal-structure-tonic--phasic-components)
+  - [🎯 **4. Key EDA Parameters**](#-4-key-eda-parameters)
+  - [🎮 **5. Applications of EDA**](#-5-applications-of-eda)
+  - [📱 **6. Commonly Used Devices \& Confounds**](#-6-commonly-used-devices--confounds)
+  - [🧠 **7. Psychological Constructs Underpinning EDA**](#-7-psychological-constructs-underpinning-eda)
+  - [⚠️ **8. Threats to Validity**](#️-8-threats-to-validity)
+- [🎽 **Lecture 19: Wearable Computing \& Smart Systems**](#-lecture-19-wearable-computing--smart-systems)
+    - [**🔍 Overview of the Lecture**](#-overview-of-the-lecture-15)
+  - [⚙️ **1. Key Attributes of Wearable Computing**](#️-1-key-attributes-of-wearable-computing)
+  - [👕 **2. Smart Clothing: Scenario \& Challenges**](#-2-smart-clothing-scenario--challenges)
+  - [🧵 **3. SeamFit: A Seam-Based Smart Clothing Solution**](#-3-seamfit-a-seam-based-smart-clothing-solution)
+  - [🕶️ **4. Early Prototypes: From Wearable Multimedia to Modern Smartwear**](#️-4-early-prototypes-from-wearable-multimedia-to-modern-smartwear)
+  - [🌐 **5. Broader Applications of Wearable Computing**](#-5-broader-applications-of-wearable-computing)
+  - [⚠️ **6. Fundamental Challenges of Wearable Systems**](#️-6-fundamental-challenges-of-wearable-systems)
+- [🧠 **Lecture 20: Electroencephalography (EEG) in Physiological Sensing — Module VI (Part II)**](#-lecture-20-electroencephalography-eeg-in-physiological-sensing--module-vi-part-ii)
+    - [**🔍 Overview of the Lecture**](#-overview-of-the-lecture-16)
+  - [⚡ **1. From Action Potentials to EEG**](#-1-from-action-potentials-to-eeg)
+  - [🌐 **2. EEG Signal Generation \& Noise**](#-2-eeg-signal-generation--noise)
+  - [🎶 **3. EEG Frequency Bands \& Cognitive States**](#-3-eeg-frequency-bands--cognitive-states)
+  - [📍 **4. Electrode Positions: The 10–20 System**](#-4-electrode-positions-the-1020-system)
+  - [🛠️ **5. Commercial EEG Devices**](#️-5-commercial-eeg-devices)
+  - [🚧 **6. Graded Activity: Designing a Distraction-Monitoring EEG Device**](#-6-graded-activity-designing-a-distraction-monitoring-eeg-device)
+- [🌟 **Lecture 21: Affective Computing — Module VII (Part I)**](#-lecture-21-affective-computing--module-vii-part-i)
+    - [**🔍 Overview of the Lecture**](#-overview-of-the-lecture-17)
+  - [🤖 **1. What Is Affective Computing?**](#-1-what-is-affective-computing)
+  - [🎭 **2. Emotions: Cognitive vs. Physical**](#-2-emotions-cognitive-vs-physical)
+  - [💡 **3. Sentic Modulation: The Body’s Emotional Language**](#-3-sentic-modulation-the-bodys-emotional-language)
+  - [🎨 **4. Types of Sentic Modulation**](#-4-types-of-sentic-modulation)
+    - [4.1 Facial Expressions 😊😠😢😮](#41-facial-expressions-)
+    - [4.2 Vocal Intonation 🎤](#42-vocal-intonation-)
+    - [4.3 Motor Forms \& Essentic Gestures 🕺](#43-motor-forms--essentic-gestures-)
+    - [4.4 Physiological Responses ❤️‍🔥](#44-physiological-responses-️)
+  - [⚙️ **5. Designing Emotion-Aware UC Systems**](#️-5-designing-emotion-aware-uc-systems)
+  - [🧠 **6. Cognitive Appraisal of Emotions**](#-6-cognitive-appraisal-of-emotions)
+  - [🤳 **7. Human Expressions \& Facial Action Coding (FACS)**](#-7-human-expressions--facial-action-coding-facs)
+  - [🛠️ **8. Case Study: ExpresSense**](#️-8-case-study-expressense)
+    - [**8.1 System Architecture**](#81-system-architecture)
+    - [**8.2 Experimental Setup \& Results**](#82-experimental-setup--results)
+    - [**8.3 Usability Study**](#83-usability-study)
+  - [🌱 **9. Opportunities \& Challenges**](#-9-opportunities--challenges)
+- [🕶️ **EEGlass: Toward Everyday EEG-Eyewear for Brain–Computer Interaction**](#️-eeglass-toward-everyday-eeg-eyewear-for-braincomputer-interaction)
+  - [🔎 **Context \& Motivation**](#-context--motivation)
+  - [🛠️ **Prototype Design \& Hardware**](#️-prototype-design--hardware)
+  - [📡 **Signal Acquisition \& Processing**](#-signal-acquisition--processing)
+  - [📈 **Performance \& Findings**](#-performance--findings)
+  - [🏆 **Strengths \& Innovations**](#-strengths--innovations)
+  - [⚠️ **Limitations \& Challenges**](#️-limitations--challenges)
+  - [🔮 **Future Directions**](#-future-directions)
 
 
 # **Lecture 1 on Ubiquitous Computing (UC) 🌍**  
@@ -2804,3 +2905,973 @@ Accelerometers use **different sensing mechanisms** to measure motion:
 
 💡 **Final Thought:**  
 🔮 **"Motion sensing is transforming Ubiquitous Computing—powering everything from fitness trackers to autonomous vehicles."** 🚀
+
+
+# 📡 **Lecture 14: Motion & Activity Sensing in Ubiquitous Computing (UC)**
+
+---
+
+### **🔍 Overview of the Lecture**
+This lecture delves into two intertwined pillars of motion sensing in Ubiquitous Computing (UC): the **gyroscope**—a key device for measuring orientation and angular velocity—and **Human Activity Recognition (HAR)**, which transforms raw motion data into semantic understanding of user behavior. We explore the physical principles behind mechanical and MEMS gyroscopes, define rotational axes (roll, pitch, yaw), and then unpack the end-to-end pipeline of HAR systems, including their characteristics, challenges, sensor modalities, and processing chain. 
+
+---
+
+## 🌀 **Gyroscopes: Measuring Orientation & Angular Velocity**
+
+### **🔧 Mechanical Gyroscopes**  
+> “A gyroscope is a device used for measuring or maintaining orientation and angular velocity.”   
+A classical mechanical gyroscope comprises a spinning mass mounted on **gimbals**, allowing it to resist external torques and maintain its axis direction in space. This **precession** behavior (a change in orientation of the rotational axis) underpins its ability to serve as a stable reference for navigation and orientation maintenance in aerospace and marine applications.
+
+### **💫 MEMS Gyroscopes & the Coriolis Effect**  
+> “A Micro-Electro-Mechanical Systems (MEMS) gyroscope measures the angular rate by applying the theory of the Coriolis effect…”   
+1. A **proof mass** is suspended on micro-fabricated springs and driven to oscillate along the **x-axis**.  
+2. When the device experiences an angular velocity (ω) about the **z-axis**, the **Coriolis force** deflects the mass along the **y-axis**.  
+3. This minute displacement is detected capacitively, converted into an electrical signal proportional to rotation rate, enabling compact, low-power gyroscopes in smartphones, drones, and wearable devices.  
+
+---
+
+## 📊 **Orientation Axes: Roll, Pitch & Yaw**
+
+> “Rotation around the front-to-back axis is called roll. Rotation around the side-to-side axis is called pitch. Rotation around the vertical axis is called yaw.”   
+
+- **Roll (ϕ):** Tilting side-to-side (e.g., an airplane banking).  
+- **Pitch (θ):** Nodding up-and-down (e.g., raising/lowering a smartphone’s front edge).  
+- **Yaw (ψ):** Turning left-to-right (e.g., a rotating platform).  
+
+These three **degrees of freedom** form the backbone of orientation tracking in navigation systems, augmented reality (AR), and mobile gaming.
+
+---
+
+## 🤖 **Human Activity Recognition (HAR)**
+
+HAR leverages motion sensors to automatically infer the **type** and **context** of human activities (walking, typing, driving, etc.).  
+
+### 🏷️ **Key Characteristics of HAR Systems**
+
+1. **Execution Mode**  
+   - **Offline:** Data is logged and processed in batches (e.g., daily activity summaries at midnight) .  
+   - **Online:** Real-time processing for interactive feedback (e.g., step counters notifying at 5 000 steps) .  
+
+2. **Generalisation**  
+   - **User-Independent:** Designed for many users with fixed thresholds (e.g., stress detection via EDA in a smart desk) .  
+   - **User-Specific:** Calibrated per individual, yielding higher accuracy but lower cross-user portability .  
+
+3. **Recognition Mode**  
+   - **Continuous:** Automatically spots activities in streaming data (e.g., blink detection from ultrasound echoes) .  
+   - **Isolated (Segmented):** Assumes known start/end windows for gestures (e.g., 2 s window to distinguish blink vs. drowsiness) .  
+
+4. **Activity Types**  
+   - **Periodic:** Repetitive patterns (walking, cycling) analyzed with sliding windows and frequency-domain features.  
+   - **Sporadic:** Occasional gestures interspersed within other activities; requires robust segmentation.  
+   - **Static:** Postures or holding-still gestures (e.g., sitting vs. standing) .  
+
+5. **System Model**  
+   - **Stateless:** Recognizes primitives solely from sensor signals (e.g., reach, grasp) .  
+   - **Stateful:** Maintains contextual/environmental models (e.g., location map) to boost recognition at the cost of complexity .  
+
+### ⚙️ **Challenges in HAR**
+
+- **Intraclass Variability:** The same activity looks different across or even within individuals (e.g., walking speed variance) .  
+- **Interclass Similarity:** Distinct activities produce similar sensor patterns (e.g., jogging vs. vigorous dancing) .  
+
+---
+
+## 🔍 **Sensor Modalities for HAR**
+
+1. **Ambient Sensors:** Fixed-location devices (e.g., WiFi receivers, RFID readers) that infer activity from environmental signals.  
+2. **Wearable Sensors:** Body-mounted or handheld (e.g., accelerometers, gyroscopes, magnetometers, barometers) providing high-fidelity motion data .  
+
+Wearables dominate UC applications due to **portability**, **lower setup cost**, and **personalized data**.
+
+---
+
+## 🔗 **Activity Recognition Chain (ARC)**
+
+An **ARC** transforms raw data into activity labels through:  
+1. **Data Acquisition:** Collect sensor streams (D).  
+2. **Signal Preprocessing & Segmentation:** Filter noise, split into windows (Wᵢ).  
+3. **Feature Extraction & Selection:** Compute statistical, frequency, or time-domain features (Xᵢ).  
+4. **Model Training:** Learn parameters (θ) for classification algorithms.  
+5. **Classification:** Assign confidence scores for each activity class Yᵢ.   
+
+Each stage must be carefully tuned to balance **latency**, **accuracy**, and **power consumption**—critical in battery-constrained UC devices.
+
+---
+
+## 📌 **Applications & Concrete Examples**  
+- **Fitness Trackers:** Combine accelerometer & gyroscope data to detect running vs. cycling and count calories burned. 🏃‍♂️🚴  
+- **Smart Vehicles:** MEMS gyroscopes trigger airbag deployment on crash detection, while accelerometers adjust active suspension. 🚗💥  
+- **Gesture Control:** AR/VR headsets fuse gyroscope and magnetometer for smooth orientation tracking in virtual worlds. 🎮🕶️  
+- **Emotion Sensing (📱):** Analyzing micro-movements via smartphone gyroscopes to infer speaker’s emotional state based on tremor patterns. 😃😥  
+
+---
+
+### 📚 **References for Further Reading**
+- **Mechanical & MEMS Gyroscopes:**  
+  *PMC Article on Gyroscope Principles*  
+- **Human Activity Recognition Surveys:**  
+  *“A Survey on Human Activity Recognition Using Wearable Sensors,” ACM*  
+
+---
+
+🚀 **Final Thoughts:**  
+Motion and activity sensing form the foundation of context-aware UC systems. By mastering gyroscope physics and the full spectrum of HAR design—from sensor selection to real-time classification—designers can craft **seamless**, **intelligent** applications that respond fluidly to human behavior.
+
+
+# 📡 **Lecture 15: Motion & Activity Sensing in Ubiquitous Computing (UC) — Module V (Part II)**
+
+---
+
+### **🔍 Overview of the Lecture**
+This lecture builds on foundational HAR concepts by examining a **real-world smartphone dataset** (UCI-HAR) and then broadening the sensing modality to **WiFi-based activity detection**. We will:
+
+- Dissect the **UCI-HAR experimental protocol**, preprocessing steps, and feature extraction.  
+- Offer a **critical observation** and identify a **drawback** of this approach.  
+- Design an **exercise** to explore whether fine-grained activities (e.g., typing) can be sensed via accelerometers/gyroscopes.  
+- Introduce **WiFi sensing fundamentals**—MIMO, OFDM, and Channel State Information (CSI)—and survey its applications in **human detection** and **fine-grained movement recognition**.  
+
+---
+
+## 📊 **UCI-HAR Dataset: Experimental Design & Feature Extraction**
+> “Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone ... Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50 Hz ... The sensor signals ... were pre-processed by applying noise filters and then sampled in fixed-width sliding windows. ● 561-features were derived with time and frequency domain variables.” 
+
+| **Activity Label**      | **Description**                            |
+|-------------------------|--------------------------------------------|
+| WALKING                 | Level-ground ambulation                    |
+| WALKING_UPSTAIRS        | Ascending stairs                           |
+| WALKING_DOWNSTAIRS      | Descending stairs                          |
+| SITTING                 | Seated posture                             |
+| STANDING                | Upright stationary                         |
+| LAYING                  | Supine or prone stationary                 |
+
+1. **Participants:** 30 volunteers (19–48 years)  
+2. **Sensor Placement:** Samsung Galaxy S II on the waist  
+3. **Sampling:** 3-axis accel. & gyro @ 50 Hz, video-recorded for manual labeling  
+4. **Partitioning:** 70% subjects for training, 30% for testing  
+5. **Preprocessing:** Noise filtering + fixed-width sliding windows  
+6. **Features:** 561 features combining time- and frequency-domain descriptors  
+
+---
+
+## 🤔 **Critical Observation & Drawback**
+While the UCI-HAR dataset provides a **rich feature set** and a **controlled labeling process**, it suffers from **limited ecological validity**:
+
+- **Homogeneous Sensor Placement:** Always on the waist—real users carry phones in pockets, handbags, or hand.  
+- **Controlled Laboratory Environment:** Activities performed in isolation, without real-world confounders (e.g., carrying objects, interacting with others).  
+- **Participant Demographics:** Only 30 volunteers; limited diversity in age, body-types, and movement styles.  
+
+> **Drawback:** Such constraints can lead to **overfitting** on laboratory patterns and **poor generalization** to in-the-wild scenarios where sensor orientation and activity context vary widely.  
+
+---
+
+## 🎯 **Exercise: Detecting Typing Activity via ACC/GYRO**  
+Can we extend HAR to **fine-grained activities** like typing?  
+1. **Data Collection App:** Build a simple MIT App Inventor app to stream and log accelerometer/gyroscope readings during **typing vs. not-typing** periods. 📲  
+2. **Labeling:** Manually annotate each time window as **Typing** or **Not Typing**.  
+3. **Clustering Analysis:** Apply **K-means** to the collected feature vectors.  
+
+| **Cluster** | **Dominant Activity** | **Potential Overlap**       |
+|-------------|-----------------------|-----------------------------|
+| Cluster 1   | Typing                | Minimal hand vibrations     |
+| Cluster 2   | Not Typing            | Ambient movements (e.g., shifts in posture) |
+
+- **Inference:** If clusters are **well-separated**, accelerometer/gyroscope data can capture the micro-vibrations of keystrokes. 💻  
+- **Caveat:** Typing force and hand stabilization differ across users; clustering may blur boundaries without personalization.
+
+---
+
+## 📡 **WiFi Sensing Fundamentals**
+> “One important technology for the success of WiFi is Multiple-Input Multiple-Output (MIMO) ... Along with Orthogonal Frequency-Division Multiplexing (OFDM), MIMO provides Channel State Information (CSI) for each transmit and receive antenna pair at each carrier frequency.” 
+
+- **MIMO:** Leverages multiple antennas to increase throughput and spatial diversity.  
+- **OFDM:** Splits a wideband channel into many orthogonal subcarriers, each carrying a portion of the data stream.  
+- **Channel State Information (CSI):** Fine-grained measurements of amplitude and phase across subcarriers—**sensitive to multipath changes** caused by human movement.  
+
+By monitoring **real-time CSI variations**, systems can infer human presence, position, and gestures **without wearable devices**—a paradigm known as **Device-Free Passive (DfP) sensing**.
+
+---
+
+## 🚶 **WiFi-Based HAR & Fine-Grained Movement Detection**
+1. **Human Presence & Counting:** CSI fluctuations reveal occupancy levels in rooms (e.g., people entering/exiting).  
+2. **Activity Recognition:** Classify broad activities (walking, sitting, falling) by pattern-matching CSI time series.  
+3. **Fine-Grained Gestures:** Use **high-resolution CSI** to detect subtle motions—hand gestures, breathing patterns, even typing on a keyboard (with sub-millimeter displacement).  
+
+📌 **Example Project:**  
+- **CSI-Enabled Gesture Control:** IAMMOTIONS, which distinguishes eight hand gestures via SVM classifiers on CSI features.  
+- **Vital Sign Monitoring:** Extract respiratory and heartbeat rates by filtering low-frequency CSI oscillations induced by chest motion.  
+
+---
+
+### 📚 **References for Further Reading**
+- **UCI HAR Dataset**: https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones  
+- Wang et al., “Understanding CSI-Based Human Activity Recognition,” _ACM Computing Surveys_  
+
+---
+
+🔮 **Key Takeaway:**  
+By combining **wearable-based HAR** (accelerometers/gyroscopes) with **infrastructure-based sensing** (WiFi CSI), UC systems can achieve **ubiquitous**, **non-intrusive**, and **fine-grained** understanding of human motion—unlocking next-generation applications in smart homes, healthcare monitoring, and human–computer interaction. 🚀
+
+# 📡 **Lecture 16: Introduction to WiFi-Based Motion & Activity Sensing**  
+
+---
+
+### **🔍 Overview of the Lecture**  
+This lecture transitions from wearable sensors to **infrastructure-based sensing**, demonstrating how commodity WiFi hardware can be repurposed for **motion and activity detection**. We cover:
+
+1. **WiFi Channels & Propagation Phenomena**  
+2. **Channel State Information (CSI)** and its geometric significance  
+3. **Key Enabling Technologies**: MIMO & OFDM  
+4. **Comparison** with video-based sensing  
+5. **CSI-Driven Sensing Applications**, culminating in the **WIFITUNED** case study for **online meeting engagement monitoring**  
+
+---
+
+## 📶 **WiFi Channels & Propagation**  
+
+> “Wi-Fi most commonly uses the 2.4 GHz and 5 GHz radio bands. The frequency band is divided into multiple channels.”   
+
+- **Channels:** Each band is partitioned into 20 MHz (or wider) channels to allow multiple networks to coexist.  
+- **Propagation Effects:** As radio waves travel, they undergo **reflection**, **diffraction**, and **scattering** off walls, furniture, and human bodies. These create **multiple propagation paths**, which superimpose at the receiver:  
+
+  > “The received superimposed signals carry the physical information of the signal propagation space.”   
+
+- **Implication:** Any movement in the environment (e.g., a person walking) perturbs these paths, altering the composite signal received.
+
+---
+
+## 🔍 **Channel State Information (CSI)**  
+
+> “CSI describes the propagation process of the wireless signal and therefore contains geometric information of the propagation space.”   
+
+- **Definition:** CSI is a complex-valued matrix representing **amplitude** and **phase** shifts for each **subcarrier** and each **Tx–Rx antenna pair**.  
+- **Static vs. Dynamic Scatterers:**  
+  - **Static:** Walls, furniture (constant over time)  
+  - **Dynamic:** Human limbs, gestures (time-varying)  
+  > “The CSI observed by the receiver is added up with the portions contributed by the static (furniture, walls, etc.) and dynamic (arms, legs, etc.) scatterers.”   
+
+- **Virtual Transmitters:** Each scatterer can be modeled as a “virtual Tx,” enabling a rich multipath profile.  
+- **Sensing Potential:** Subtle changes in phase/amplitude across subcarriers can be mapped back to **motion trajectories**, **breathing rates**, or **gesture patterns**.
+
+---
+
+## ⚙️ **Enabling Technologies: MIMO & OFDM**  
+
+### **1️⃣ MIMO (Multiple Input Multiple Output)**  
+> “Employs multiple antennas at both the transmitter and receiver to send and receive multiple data streams ... MIMO uses spatial multiplexing, which splits the data into smaller streams that are sent simultaneously over different antennas.”   
+
+- **Throughput Gain:** Parallel streams boost data rates.  
+- **Spatial Diversity:** Different antenna paths experience independent fading; combining them improves reliability.  
+- **Sensing Benefit:** More Tx–Rx pairs yield higher-dimensional CSI, enhancing sensitivity to spatial movements.
+
+### **2️⃣ OFDM (Orthogonal Frequency Division Multiplexing)**  
+- **Subcarriers:** Divides the wideband channel into orthogonal narrowband carriers, each modulated separately.  
+- **Robustness:** Resilient to frequency-selective fading and inter-symbol interference.  
+- **Sensing Benefit:** Per-subcarrier CSI granularity allows resolution of fine temporal and spatial variations in the channel.
+
+---
+
+## 🎥 **Comparison with Video-Based Sensing**  
+
+| Aspect             | Video-Based             | WiFi-Based                                |
+|--------------------|--------------------------|-------------------------------------------|
+| Intrusiveness      | Requires cameras ⛔️     | Uses existing WiFi infrastructure ✅      |
+| Coverage           | Line-of-sight required   | Penetrates walls; non-line-of-sight       |
+| Privacy            | High privacy concerns 😶 | Lower visual privacy concerns 😌          |
+| Cost & Deployment  | Cameras + lighting       | Commodity WiFi NICs; minimal deployment   |
+| Data Modality      | Pixel intensities        | RF amplitude & phase (CSI)               |
+
+> “Non-intrusive, Pervasive, Low-cost”   
+
+Both pipelines share stages—**data capture**, **preprocessing**, **feature extraction**, **learning/classification**—but WiFi sensing excels when privacy and cost are paramount.
+
+---
+
+## 🚀 **CSI-Based WiFi Sensing Applications**  
+
+1. **Human Presence & Counting**  
+   - CSI fluctuations correlate with the number of occupants; useful for smart buildings.  
+
+2. **Activity Recognition**  
+   - Macro activities (walking, sitting, falling) distinguished via time-series CSI patterns.  
+
+3. **Fine-Grained Gesture Detection**  
+   - Hand gestures (swipes, pinches) resolved with sub-millimeter precision by tracking phase variations. 💅  
+
+4. **Vital Sign Monitoring**  
+   - Minute chest movements from breathing or heartbeat modulate CSI low-frequency components.
+
+---
+
+## 📈 **Case Study: WIFITUNED**  
+A **non-intrusive system** for monitoring **online meeting engagement** via head movements:
+
+> “Monitoring engagement in online meetings in indoor environment”   
+
+- **Modality Correlation:** Correlates CSI changes with **head nods**, **turns**, and **facial orientation**, alongside audio signals.  
+- **Pipeline:**  
+  1. **CSI Acquisition:** AP continuously samples CSI.  
+  2. **Signal Correlation:** Align CSI dips/peaks with audio cues and known head-movement signatures.  
+  3. **Engagement Metric:** Computes engagement scores in real time, enabling feedback or moderation tools.  
+
+Live demos have shown robust detection of engagement shifts—ideal for remote education and large-scale webinars. 🎓💻
+
+---
+
+## 💡 **Key Takeaways & Future Directions**  
+- **Infrastructure Reuse:** WiFi NICs double as motion sensors—zero additional hardware cost.  
+- **Multi-Modal Fusion:** Combining CSI with audio, IMU, or camera data can boost accuracy for complex tasks.  
+- **Edge Deployment:** Lightweight CSI processing on edge devices enables real-time feedback in smart homes and offices.  
+- **Research Frontiers:**  
+  - **Deep Learning on CSI:** End-to-end CNNs/Transformers for robust feature learning across varied environments.  
+  - **Privacy-Preserving Sensing:** Ensuring that no personally identifiable information (e.g., gait, identity) can be reconstructed.  
+
+🚀 **“WiFi sensing transforms everyday access points into pervasive motion-and-activity sensors—unlocking a new dimension of context-aware computing.”**
+
+# ❤️‍🩹 **Lecture 17: Physiological Sensing in Ubiquitous Computing (UC) — Module VI (Part I)**  
+
+---
+
+### **🔍 Overview of the Lecture**  
+This lecture introduces **physiological signals**—biological processes generating measurable electrical, mechanical, or chemical changes—and explores how they can be captured and leveraged in UC systems. We cover:
+
+1. **Definitions & Examples** of key physiological signals  
+2. **Recording Modalities**: wearables, smartphones, and novel devices  
+3. **Applications** of physiological sensing in health, wellness, and HCI  
+4. **Deep Dive: Photoplethysmography (PPG)**  
+   - Principles of PPG waveforms  
+   - Probe types: transmission vs. reflection  
+   - Derived physiological parameters  
+   - Guidelines for HR and BP measurement  
+5. **Case Study: Detecting Divided Attention in Mobile MOOC Learning**  
+
+---
+
+## 🩸 **1. What Are Physiological Signals?**  
+Physiological signals reflect the body’s internal state through measurable changes:
+
+- **Electrocardiography (ECG):** Cardiac electrical activity  
+- **Electroencephalography (EEG):** Brainwave electrical activity  
+- **Electromyography (EMG):** Muscle electrical potentials  
+- **Electrooculography (EOG):** Eye movement potentials  
+- **Photoplethysmography (PPG):** Blood-volume-induced light modulation  
+- **Respiratory Signals:** Chest/abdominal movement or airflow  
+- **Blood Oxygen (SpO₂):** Oxygen saturation via optical absorption  
+- **Continuous Glucose Monitoring (CGM):** Interstitial glucose levels  
+- **Body Temperature:** Core or skin temperature variations  
+- **Sweat Analysis:** Electrolyte/biomarker concentrations  
+
+>   
+
+---
+
+## 📈 **2. How to Record Physiological Signals?**  
+
+### **Wearables & Devices**  
+- **Rings & Watches:** Ultrahuman Ring, Empatica Embrace  
+- **Chest Straps:** Polar H10 heart-rate monitor  
+- **Smartphones:** Cameras (PPG), IMUs (EOG inference via blink detection)  
+- **Emerging Form Factors:** Smart gloves (EMG), smart masks (respiration), smart shoes (gait), smart glasses (EOG)  
+
+These modalities trade off **accuracy**, **comfort**, and **ubiquity**—key considerations when integrating physiological sensing into UC applications.   
+
+---
+
+## ⚕️ **3. Applications of Physiological Sensing**  
+
+- **Health Monitoring:** Arrhythmia detection (ECG), sleep apnea screening (respiratory), glucose regulation (CGM)  
+- **Fitness & Wellness:** Heart-rate zones (PPG), stress evaluation (skin conductance + HRV), breathing exercises  
+- **Emotion & Cognitive State:** Stress, workload via EDA/HRV; attention, drowsiness via EEG/EOG  
+- **Authentication & Security:** Gait patterns (IMU + PPG), cardiac signature biometrics  
+- **Human–Computer Interaction:** EMG-driven prosthetic control, EOG-based gaze interfaces  
+
+These applications illustrate the **ubiquity** and **transformative potential** of physiological data in personalized, context-aware UC systems.
+
+---
+
+## 💡 **4. Deep Dive: Photoplethysmography (PPG)**  
+
+### **4.1 Principle of PPG**  
+> “The photoplethysmographic (PPG) signal is defined as oscillations in light transmission through a tissue, which are created by heart beats (Systoles and Diastoles).”   
+
+- **Optical Path:** LED illuminates tissue → light is **absorbed** and **scattered** by blood/tissue → photodiode measures **attenuated intensity** → converted to voltage waveform.  
+- **Frequency Components:**  
+  - **High-frequency (AC):** Heartbeat-induced blood-volume changes  
+  - **Low-frequency (DC):** Baseline tissue properties, respiration, thermoregulation  
+
+---
+
+### **4.2 PPG Probe Types**  
+
+| Mode               | Configuration                                               | Use Case                                      |
+|--------------------|-------------------------------------------------------------|-----------------------------------------------|
+| **Transmission**   | LED ↔ tissue ↔ photodiode on opposite sides (clip-based)    | Medical SpO₂ on finger, earlobe (arterial sites)  |
+| **Reflection**     | LED & photodiode side-by-side, millimeters apart           | Wearables (wrist, forehead), non-contact PPG |
+
+- **Transmission Probes:**  
+  - Pros: High signal quality for arterial oxygen saturation  
+  - Cons: Limited to clip-able sites (finger, earlobe)  
+- **Reflection Probes:**  
+  - Pros: Versatile placement (wristbands, smartwatches)  
+  - Cons: More susceptible to motion artifacts  
+
+>   
+
+---
+
+### **4.3 Arterial Waveform Structure & Derived Metrics**  
+
+A typical PPG waveform contains:
+
+1. **Systolic Peak (P₁):** Maximum upstroke of each cardiac cycle  
+2. **Dicrotic Notch & Wave (P₂):** Valve closure reflections  
+3. **Baseline Drift:** Slow variations from respiration/venous flow  
+
+**Extractable Parameters:**  
+- **Heart Rate (HR):** Inter-beat intervals from P₁ timestamps  
+- **Heart Rate Variability (HRV):** Time- and frequency-domain variability metrics  
+- **Atrial Fibrillation Detection:** Irregular P₁ patterns  
+- **Respiratory Rate:** Modulation of baseline amplitude  
+- **Blood Pressure Estimation:** Pulse Transit Time (PTT) between ECG & PPG peaks  
+- **Arterial Stiffness:** Pulse wave velocity analysis  
+
+---
+
+### **4.4 Measuring HR vs. BP: Parameter Guidelines**  
+
+| Parameter           | Heart Rate Monitoring                    | Blood Pressure Estimation               |
+|---------------------|------------------------------------------|-----------------------------------------|
+| **Location**        | Wrist                                    | Finger (or ear)                         |
+| **Mode**            | Reflectance                              | Transmission                             |
+| **Sampling Rate**   | Low (~30–40 Hz)                          | High (>500 Hz for waveform fidelity)    |
+| **Wavelength**      | Green/Red LED (525–600 nm)               | Infrared (~940 nm)                      |
+| **Recording Time**  | Short (10–30 s)                          | Long (5–20 min for cuff-less BP models) |
+
+- **Why?** HR detection tolerates lower sampling rates and motion artifacts, while reliable BP estimation requires high-fidelity waveform features and stable optical coupling.   
+
+---
+
+## 📊 **5. Case Study: OneMind—Detecting Divided Attention in Mobile MOOC Learning**  
+
+### **Problem Context**  
+Mobile MOOCs offer flexibility but increase **multitasking** and **distractions**, impairing learning outcomes.  
+
+### **OneMind Contribution**  
+> Proposes a system to **detect presence, type, and intensity of divided attention** via implicit sensing on unmodified smartphones.   
+
+- **Physiological Signals:** Combines PPG-derived HRV, gyroscope/accelerometer patterns of device handling, and screen-interaction logs.  
+- **Learning Impact:** Correlates attention lapses with quiz performance and retention metrics.  
+
+### **Solution Pipeline**  
+1. **Data Acquisition:**  
+   - PPG via camera+flash  
+   - IMU streams for device motion  
+   - Touch-event timestamps  
+2. **Feature Extraction:**  
+   - HRV indices (SDNN, RMSSD)  
+   - Motion entropy, device-posture changes  
+   - Interaction frequency (taps/swipes per minute)  
+3. **Modeling & Detection:**  
+   - Machine learning classifiers trained on **focused vs. distracted** sessions  
+   - Real-time attention score output to adaptive UI interventions  
+
+### **Key Results**  
+- **Divided Attention** significantly degrades quiz accuracy by up to **15%**.  
+- OneMind achieves **85%** detection accuracy for high vs. low attention states.  
+
+---
+
+### **📝 Class Activity: Critical Evaluation**  
+Evaluate OneMind on:  
+1. **Usability:** Intrusiveness of camera-based PPG? Battery impact?  
+2. **Accuracy:** Robustness across lighting conditions and device models  
+3. **Accessibility:** Can users with disabilities (e.g., tremor) leverage the system?  
+4. **Ubiquity:** Dependence on smartphone sensors—availability across device classes  
+5. **Scalability & Robustness:** Performance under network latency, large-scale MOOCs  
+
+For each limitation, propose improvements (e.g., fusing additional low-power sensors, adaptive calibration, privacy-preserving on-device ML).
+
+---
+
+🚀 **Final Thoughts:**  
+Physiological sensing unlocks **deep insights** into human health, cognition, and behavior. From **PPG’s rich cardiovascular signals** to **camera-free EMG/EOG inference**, UC designers can create **context-aware** systems that adapt to our biological states—ushering in a truly **human-centric** computing era.
+
+# 📡 **Lecture 18: Electrodermal Activity (EDA) in Physiological Sensing**  
+
+---
+
+### **🔍 Overview of the Lecture**  
+This lecture dives deep into **Electrodermal Activity (EDA)**, also known as **Galvanic Skin Response (GSR)**—a window into the **sympathetic nervous system’s** involuntary arousal. We will explore:
+
+- **What is EDA?** — physiology & stimulus drivers  
+- **How EDA is measured** — exosomatic vs. endosomatic methods  
+- **Signal structure** — tonic vs. phasic components  
+- **Key parameters** — SCL, SCR, latency, amplitude, NS.SCR  
+- **Applications** — from VR stress sensing to biofeedback gaming  
+- **Devices & confounds** — hardware choices and environmental factors  
+- **Psychological constructs** — arousal, stress, orienting response, cognitive load  
+- **Threats to validity** — electrode placement, motion artifacts, skin prep  
+
+---
+
+## 💧 **1. What Is Electrodermal Activity?**  
+- **Definition:** EDA reflects changes in skin conductance due to **sweat gland activity** on palms and soles—driven by **sympathetic arousal** in response to sensory or emotional stimuli.   
+- **Autonomic Response:** Completely **involuntary**, modulated by touch, sight, sound, odor, or taste triggers.   
+
+---
+
+## ⚙️ **2. Measuring EDA: Exosomatic vs. Endosomatic**  
+1. **Exosomatic Approach:**  
+   - Applies a **constant voltage** (DC or AC) across skin electrodes.  
+   - Measures **skin resistance/conductance** (DC) or **admittance/impedance** (AC).   
+
+2. **Endosomatic Approach:**  
+   - Records the skin’s **natural electrical potential** without external excitation.  
+   - Uses one electrode on an **active** site (e.g., palm) and one on an **inactive** site (e.g., forearm).   
+
+---
+
+## 📈 **3. EDA Signal Structure: Tonic & Phasic Components**  
+- **Tonic Component (Skin Conductance Level, SCL):**  
+  - Baseline conductance in absence of discrete events.  
+  - Varies slowly with hydration, temperature, and psychological state.   
+
+- **Phasic Component (Skin Conductance Responses, SCR):**  
+  - Short-term bursts (“peaks”) following stimuli (anticipation, decision-making).  
+  - Characterized by **amplitude**, **latency**, **rise time**, and **recovery time**.   
+
+- **Non-specific SCR (NS.SCR):**  
+  - Phasic peaks not clearly linked to an identifiable stimulus.   
+
+---
+
+## 🎯 **4. Key EDA Parameters**  
+| **Parameter**           | **Definition**                                                         |
+|-------------------------|------------------------------------------------------------------------|
+| **SCL**                 | Mean tonic conductance over a rest period             |
+| **SCR Amplitude**       | Peak conductance increase after a stimulus          |
+| **Latency**             | Time from stimulus onset to SCR onset              |
+| **Rise Time**           | Time from SCR onset to peak                         |
+| **Recovery Time**       | Time from peak back to baseline                      |
+| **SCR Frequency**       | Number of phasic peaks per minute (tonic arousal measure)  |
+
+---
+
+## 🎮 **5. Applications of EDA**  
+- **VR & Gaming:** Monitor anxiety, presence, and tune game mechanics via **biofeedback loops**.   
+- **User Experience Research:** Assess emotional enjoyment and orienting responses in multi-sensory environments.   
+- **Stress & Workload Monitoring:** NS.SCR frequency as a real-time stress index; SCRs track cognitive resource demands.   
+- **Adaptive Interfaces:** Games where players **intentionally modulate** their EDA to influence in-game events.   
+
+---
+
+## 📱 **6. Commonly Used Devices & Confounds**  
+- **Hardware:** Biopac GSR amplifiers, Empatica E4, Shimmer3 GSR+ modules   
+- **Environmental & Physiological Effects:**  
+  - **Caffeine/Medication, Temperature & Humidity** impact EDA baselines.  
+  - **Movement Artifacts:** Grasping, speech, running can destabilize electrodes and heat skin, skewing conductance.   
+
+---
+
+## 🧠 **7. Psychological Constructs Underpinning EDA**  
+- **Arousal:** State of being awake and reactive; indexed by SCL and SCR frequency.   
+- **Stress:** Sympathetic-driven; NS.SCR frequency correlates with stress levels.   
+- **Orienting Response:** Novelty detection via phasic SCRs to new stimuli—amplitude reflects stimulus intensity.   
+- **Cognitive Load:** Task-imposed demand; SCR is a reliable proxy for mental resource consumption.   
+
+---
+
+## ⚠️ **8. Threats to Validity**  
+- **Skin Preparation & Electrode Placement:**  
+  - Wrist recordings may reflect **thermoregulatory** rather than emotional sweating—validation studies report **poor reliability** on the wrist.   
+- **Physical Activity:**  
+  - Electrode movement and heat from exercise (walking, instrument play) can produce spurious conductance changes.   
+
+---
+
+🚀 **Final Thought:**  
+Electrodermal Activity offers a **non-invasive**, **continuous** measure of autonomic arousal, with vast applications from **affective computing** to **adaptive user experiences**. By mastering EDA’s physiological basis, signal structure, and confounds, designers can build truly **emotion-aware** systems in ubiquitous computing.
+
+# 🎽 **Lecture 19: Wearable Computing & Smart Systems**  
+
+---
+
+### **🔍 Overview of the Lecture**  
+Lecture 19 introduces the domain of **wearable computing** and **smart textiles**, exploring:
+
+1. **Key Attributes** that define successful wearables  
+2. **Smart Clothing Scenarios** & their unique design challenges  
+3. **SeamFit**—a state-of-the-art smart T-shirt system for exercise logging  
+4. **Early Wearable Prototypes** and their evolution  
+5. **Broad Applications** of wearables beyond health  
+6. **Fundamental Challenges**—power, heat, networking, privacy, and interfaces  
+
+---
+
+## ⚙️ **1. Key Attributes of Wearable Computing**  
+> “Persist and provide constant access to information services … Sense and model context … Adapt interaction modalities … Augment and mediate interactions with the user’s environment.”   
+
+A truly **wearable system** must:
+
+- **Be Always-On & Effortless:** Daily use without conscious donning; seamless integration into clothing or accessories. 🕶️  
+- **Sense & Model Context:** Continually observe the user’s environment, physical/mental state, and internal device status to remain relevant. 🔄  
+- **Adaptive Interaction:** Shift modalities (visual, auditory, haptic) based on situational context—e.g., silent alerts during meetings. 🤫  
+- **Augment & Mediate:** Automatically gather location-relevant resources and filter information to match user preferences. 📍  
+
+These attributes differentiate wearables from mobile devices by emphasizing **passive**, **continuous**, and **context-aware** operation.
+
+---
+
+## 👕 **2. Smart Clothing: Scenario & Challenges**  
+> **Use Case:** Kate’s Smart T-Shirt logs workouts and survives laundry just like a regular shirt.   
+
+**Design Challenges include:**  
+- **Generalizability Across Fits:** Garments stretch and drape differently on each body—sensor placement must remain accurate for joints regardless of size.  
+- **Washing Durability:** Electronics and conductive threads must endure repeated cycles of water, detergent, and mechanical agitation without degrading. 💧🚿  
+- **User Comfort & Breathability:** Sensor integration must not compromise fabric hand, stretch, or moisture wicking—critical for active wear.  
+
+---
+
+## 🧵 **3. SeamFit: A Seam-Based Smart Clothing Solution**  
+SeamFit repurposes **existing seam lines** in garments as electrodes, embedding conductive threads invisibly:
+
+1. **Invisible Integration:** TPU-coated silver-nylon threads run along shoulders, sleeves, and torso seams—preserving aesthetics and fabric properties.  
+2. **Seam-Joint Correlation:** Seam placement aligns naturally with body joints, enabling **fine-grained motion sensing** without bulky sensors.  
+3. **Minimal Fabric Impact:** Breathability and stretch remain unchanged, maintaining user comfort during exercise.  
+
+> In a 15-participant study covering 14 exercises, SeamFit achieved **89% detection accuracy**, **93.4% classification accuracy**, and an average count error of **0.9 reps**, **independent** of user body type, wash cycles, and garment fit.   
+
+**Critical Evaluation:**  
+- **Strengths:**  
+  - **Robustness:** High accuracy across real-world variations (fits, washes).  
+  - **Transparency:** Users interact with familiar garments—no learning curve.  
+  - **Durability:** TPU coating protects conductive threads during laundering.  
+
+- **Limitations & Improvements:**  
+  - **Electrode Wear:** Over many washes, silver-nylon may fatigue—consider plating or encapsulation enhancements.  
+  - **Power & Data Modules:** SeamFit offloads processing to removable units; future work could miniaturize and embed energy harvesting (e.g., textile solar cells).  
+  - **Scalability:** Custom seam patterns per garment design; a standardized seam-sensor kit could reduce manufacturing complexity.
+
+---
+
+## 🕶️ **4. Early Prototypes: From Wearable Multimedia to Modern Smartwear**  
+The pioneering **wearable multimedia computer** integrated sensors and displays into eyeglasses, coupled with a head-mounted screen and wireless connectivity—an ancestor of today’s AR glasses.   
+
+- **Lessons Learned:**  
+  - **Ergonomics & Weight:** Early rigs were bulky; miniaturization has been key.  
+  - **Interface Design:** From on-lens keyboards to voice and gesture controls, wearables demand novel I/O paradigms.  
+
+---
+
+## 🌐 **5. Broader Applications of Wearable Computing**  
+Beyond fitness and AR, wearables now span:  
+
+- **Healthcare Monitoring:** Continuous ECG, SpO₂, glucose sensing for chronic disease management. ❤️  
+- **Occupational Safety:** Real-time posture and fatigue alerts for industrial workers. 🦺  
+- **Interactive Entertainment:** Haptic suits and gesture-sensing gloves for immersive VR/AR. 🎮  
+- **Environmental Sensing:** Smart jackets that adjust insulation or filter air based on pollution levels. 🌬️  
+
+*(See demonstrations: j8uLddsKROU, EQ-_bWjDKC4, giYfG9DmNxE on YouTube)*   
+
+---
+
+## ⚠️ **6. Fundamental Challenges of Wearable Systems**  
+> “Power use, Heat Dissipation, Networking, Privacy, Interface Design” — Leonard Foner.   
+
+- **Power & Heat:** Continuous sensing and wireless comms demand energy; thermal comfort must be maintained. 🔋🌡️  
+- **Networking & Latency:** Seamless handoff between BLE, Wi-Fi, and cellular to ensure low-latency data. 📶  
+- **Privacy & Ethics:** Wearables often collect sensitive biometric and location data—designers must minimize data collection and secure personal information by default. 🔒  
+- **Interface Innovation:** Micro-displays, bone conduction audio, and haptics require new design patterns to avoid information overload.  
+
+---
+
+🚀 **Final Thought:**  
+Wearable computing fuses **textiles**, **electronics**, and **machine intelligence** into everyday garments and accessories. By addressing the twin pillars of **user comfort** and **robust sensing**, innovators can create truly **pervasive**, **invisible** computing platforms that augment human abilities—ushering in a future where technology is not worn on the body, but woven into it.
+
+# 🧠 **Lecture 20: Electroencephalography (EEG) in Physiological Sensing — Module VI (Part II)**  
+
+---
+
+### **🔍 Overview of the Lecture**  
+This lecture delves into **Electroencephalography (EEG)**—the non-invasive measurement of scalp electrical potentials generated by neuronal populations. We will examine:
+
+1. **Action Potentials & Postsynaptic Potentials**  
+2. **EEG Signal Generation** & noise considerations  
+3. **EEG Frequency Bands** and their cognitive correlates  
+4. **Electrode Montages** (10–20 system) for spatial coverage  
+5. **Commercial EEG Systems**  
+6. **Design Exercise**: Conceptualize a distraction-monitoring EEG device  
+
+---
+
+## ⚡ **1. From Action Potentials to EEG**  
+> “An action potential is a series of quick changes in voltage across a cell membrane.”   
+
+- **Resting Membrane Potential (RMP):** Neuronal cell bodies maintain approximately **–60 to –70 mV** internally relative to the extracellular space.  
+- **Action Potential (AP):** When depolarization reaches threshold, a rapid voltage spike (~ +40 mV) travels along the axon—triggering **excitatory postsynaptic potentials (EPSPs)** or **inhibitory postsynaptic potentials (IPSPs)** in downstream neurons.   
+- **Summation Requirement:** Only **synchronous activity** of millions of neurons can produce scalp-measurable potentials due to skull attenuation (~100×).   
+
+---
+
+## 🌐 **2. EEG Signal Generation & Noise**  
+- **Source:** Predominantly large pyramidal cells in the **cerebrum**, oriented perpendicular to the cortical surface.  
+- **Attenuation & Filtering:** The skull and scalp dampen high-frequency components; low-amplitude signals (< 20 µV) require high-gain, low-noise amplifiers.  
+- **Noise Sources:**  
+  - **Internal:** Muscle activity (EMG), cardiac signals (EKG)  
+  - **External:** Power-line interference (50/60 Hz), electrode movement artifacts  
+- **Implication:** Rigorous **shielding**, **impedance matching**, and **artifact rejection** are critical for reliable EEG.   
+
+---
+
+## 🎶 **3. EEG Frequency Bands & Cognitive States**  
+
+| **Band**  | **Range (Hz)** | **Functional Correlate**                                                                 |
+|-----------|----------------|------------------------------------------------------------------------------------------|
+| **Delta** | 0.5–4          | Deep sleep, unconscious states (may appear in waking pathology)                         |
+| **Theta** | 4–7.5          | Drowsiness, meditation, memory retrieval, creative insight                               |
+| **Alpha** | 8–13           | Relaxed wakefulness (eyes closed), inhibitory cortical idling                            |
+| **Beta**  | 14–30          | Active thinking, focused attention; high-beta (> 30 Hz) in anxiety/panic                 |
+| **Gamma** | 30–100+        | Sensory binding, high-level cognitive processing, consciousness integration              |
+
+> These rhythms reflect **population-level oscillations** arising from thalamo-cortical and cortico-cortical loops.   
+
+---
+
+## 📍 **4. Electrode Positions: The 10–20 System**  
+- **Labels:**  
+  - **Fp (Frontopolar), F (Frontal), C (Central), T (Temporal), P (Parietal), O (Occipital), A (Auricular), Z (Midline)**  
+- **Placement:** Electrodes are spaced at 10% or 20% intervals of skull landmarks (nasion, inion, preauricular points) to ensure reproducibility.   
+- **Montages:**  
+  - **Referential:** Each active site referenced to a common site (e.g., mastoid).  
+  - **Bipolar:** Adjacent electrodes compared—useful for localizing focal activity.  
+
+---
+
+## 🛠️ **5. Commercial EEG Devices**  
+- **Emotiv EPOC:** 14-channel wireless headset—consumer-grade, good for BCI prototyping.  
+- **g.tec g.Nautilus:** 32–64 channels, medical-grade, supports online processing.  
+- **Enobio 8:** 8-channel wearable, dry electrodes for ambulatory monitoring.  
+
+Each balances **channel count**, **portability**, and **signal fidelity**—key trade-offs when selecting hardware for specific applications.   
+
+---
+
+## 🚧 **6. Graded Activity: Designing a Distraction-Monitoring EEG Device**  
+**Objective:** Create a wearable EEG system that detects user distraction during tasks (e.g., studying, driving).  
+
+1. **Sensor Array & Placement:**  
+   - **Frontal (Fz, F3, F4)** and **central (Cz)** electrodes to capture **theta/beta** shifts associated with attentional lapses.  
+2. **Signal Processing Pipeline:**  
+   - **Preprocessing:** Bandpass filter (1–40 Hz), notch filter at mains frequency (50 Hz).  
+   - **Feature Extraction:** Theta/Beta ratio, event-related potentials (e.g., P300 amplitude).  
+   - **Classification:** Lightweight ML model (e.g., SVM) on edge device (e.g., embedded ARM MCU).  
+3. **User Feedback Loop:**  
+   - **Haptic Alert:** Gentle vibration when distraction threshold exceeded.  
+   - **Adaptive Interface:** Pause content playback or adjust difficulty when sustained distraction detected.  
+4. **Differentiators vs. Traditional Systems:**  
+   - **Form Factor:** Comfortable, behind-the-ear dry electrodes—no gel, low maintenance.  
+   - **On-Device Processing:** Protects privacy by avoiding raw EEG transmission.  
+   - **Context Integration:** Fuse IMU data (head orientation) to distinguish head nodding vs. device movement.  
+
+> **Why Users Will Adopt:** Unlike lab-bound EEG, this system offers **seamless wearability**, **real-time alerts**, and **privacy-preserving** on-device processing—empowering users to maintain focus without cumbersome setups. 🚀  
+
+---
+
+🎓 **Key Takeaway:**  
+EEG translates microscopic neuronal events into macroscopic oscillations measurable at the scalp. By understanding **action potentials**, **signal generation**, **frequency bands**, and **practical electrode montages**, designers can craft **wearable brain–computer interfaces** that monitor cognitive states—paving the way for **attention-aware**, **adaptive** ubiquitous systems.
+
+# 🌟 **Lecture 21: Affective Computing — Module VII (Part I)**  
+
+---
+
+### **🔍 Overview of the Lecture**  
+Lecture 21 lays the foundation for **Affective Computing** by exploring how technology can **detect**, **interpret**, and **respond** to human emotions. We examine:
+
+1. **Definition & Scope** of Affective Computing  
+2. **Emotions as Cognitive & Physical Phenomena**  
+3. **Sentic Modulation**: the natural, subtle expressions of emotion  
+4. **Types of Sentic Modulation**: facial, vocal, motor, physiological  
+5. **Design Considerations** for emotion-aware UC systems  
+6. **Cognitive Appraisal of Emotions**  
+7. **Human Expressions & Facial Action Coding**  
+8. **Case Study — ExpresSense**: Smartphone-based facial expression sensing via acoustics  
+9. **Experimental Findings & Usability**  
+10. **Opportunities & Challenges** for real-world deployment  
+
+---
+
+## 🤖 **1. What Is Affective Computing?**  
+
+> **Affective Computing** is “the expanding intersection between technology and emotion,” focused on **detection** and **response** to human feelings.   
+
+- **Cognitive Aspect:** Emotions involve appraisal, comparison, and inference—how situations trigger emotional states.  
+- **Physical Aspect:** Emotions manifest in **body signals** (heart rate changes, skin conductance) and **sentic modulations** (facial expression, voice inflection).  
+
+---
+
+## 🎭 **2. Emotions: Cognitive vs. Physical**  
+
+- **Cognitive Emotions:** Involve mental processes—e.g., interpreting that one’s wheelchair collision was accidental shifts anger to sympathy.  
+- **Physical Emotions:** Encompass bodily responses—posture changes, facial micro-expressions, vocal tone shifts—often subconscious.   
+
+---
+
+## 💡 **3. Sentic Modulation: The Body’s Emotional Language**  
+
+> “Sentic modulation, such as voice inflection, facial expression, and posture, is the primary means of communicating human emotion.” — Manfred Clynes, 1977   
+
+- **Natural & Subconscious:** We rarely control micro-expressions or subtle posture shifts consciously.  
+- **Basic Emotions & Unique Patterns:** Each basic emotion (joy, anger, sadness, surprise, fear, disgust) has signature muscle activations.
+
+---
+
+## 🎨 **4. Types of Sentic Modulation**  
+
+### 4.1 Facial Expressions 😊😠😢😮  
+- Governed by **Facial Action Units (AUs)** (e.g., AU12: lip corner puller for smiling).  
+- **Contextual Rules:** Social display rules modulate expression intensity—e.g., in a classroom vs. sports arena.  
+- **Real-World Challenge:** Sports contexts may amplify expressions, risking false positives if a model is trained only on neutral settings.
+
+### 4.2 Vocal Intonation 🎤  
+- **“How” Over “What”**: Affective systems must parse pitch, energy, and rhythm beyond lexical content.  
+- **Applications:** Synthetic voices (e.g., virtual assistants) can project empathy by modulating tone.  
+- **Challenge:** Background noise and speaker variability complicate robust intonation analysis.
+
+### 4.3 Motor Forms & Essentic Gestures 🕺  
+- Arbitrary motor outputs (e.g., hand flutters) can express emotion.  
+- **Sentograph Devices** capture pressure trajectories over time, mapping spatiotemporal gestural “sentic forms.”  
+
+### 4.4 Physiological Responses ❤️‍🔥  
+- **Heart Rate Variability**, **EDA**, **respiration** co-occur with emotional states.  
+- **Integration:** Physiological signals can disambiguate expressions that look similar (e.g., surprise vs. fear).
+
+---
+
+## ⚙️ **5. Designing Emotion-Aware UC Systems**  
+When building real-world affective systems, account for:  
+1. **Emotion Intensity:** Subtle vs. overt expressions demand different sensitivity thresholds.  
+2. **Emotion Type Granularity:** E.g., distinguishing affectionate vs. passionate love.  
+3. **Induction Context:** Real vs. imagined vs. cinematic scenarios influence expression authenticity.  
+4. **Display Rules:** Cultural or situational norms may encourage suppression or exaggeration.  
+5. **User Factors:** Mood, medication, diet, and device context (lighting, background noise).   
+
+---
+
+## 🧠 **6. Cognitive Appraisal of Emotions**  
+- **Primary Emotions:** Immediate responses to stimuli (e.g., fear at loud noise).  
+- **Secondary Emotions:** Cognitive evaluations layered atop primary reactions (e.g., embarrassment following fear).  
+- **System Implication:** Models must incorporate context and user history to avoid misclassification (e.g., startled by tech failure vs. malicious attack).
+
+---
+
+## 🤳 **7. Human Expressions & Facial Action Coding (FACS)**  
+- **Ekman’s Six Basic Emotions:** Happiness, Sadness, Anger, Fear, Disgust, Surprise (+ Contempt later added).  
+- **Microexpressions vs. Macroexpressions:**  
+  - **Micro:** <0.5 s, involuntary, reveal true emotion under suppression.  
+  - **Macro:** >0.5 s, under conscious control.  
+- **FACS:** Decomposes any facial movement into combinations of AUs, enabling fine-grained expression analysis.   
+
+---
+
+## 🛠️ **8. Case Study: ExpresSense**  
+**Goal:** Infer user engagement from **facial expressions** via **acoustic sensing** on an unmodified smartphone.   
+
+### **8.1 System Architecture**  
+1. **Acoustic Capture:** Smartphone microphone records **near-ultrasonic reflections** from facial movements.  
+2. **Signal Processing:**  
+   - Bandpass filtering (<20 kHz) to isolate subtle facial-motion echoes.  
+   - Feature extraction of amplitude and frequency shifts.  
+3. **Classification Pipeline:** ML models map acoustic features to expression labels (Angry, Happy, Sad, Surprise).  
+4. **Integration:** Results feed into a **video-streaming app** interface, displaying engagement metrics in real time.  
+
+### **8.2 Experimental Setup & Results**  
+- **Controlled Expressions:** 10 participants, 3 sessions per emotion, 6 880 samples total.  
+- **Accuracy:** Individual expression classification achieved up to **90%+** for some emotions.  
+- **Environmental Sensitivity:**  
+  - **Distance & Elevation:** Minor performance dip beyond 50 cm or >15° tilt.  
+  - **Motion & Finger Interference:** Gross head movements degrade accuracy more than ambient noise.  
+- **Natural Expressions:** For spontaneous reactions, accuracy gravitates around **75–80%**, reflecting real-world complexity.
+
+### **8.3 Usability Study**  
+- **Participants:** 72 users evaluating the video-streaming prototype.  
+- **SUS Score:** **85.3/100**—indicating high perceived usability and acceptability.
+
+---
+
+## 🌱 **9. Opportunities & Challenges**  
+- **Opportunities:**  
+  - **Device-Free Sensing:** Leverages existing hardware—no wearables required.  
+  - **Cross-Modal Fusion:** Combining acoustics, vision, and physiology can boost robustness.  
+- **Challenges:**  
+  - **Interference:** Speech and ambient sounds can mask ultrasonic echoes.  
+  - **Obstructions:** Glasses, masks, or facial hair alter reflection patterns.  
+  - **Privacy:** Inferring emotion acoustically raises consent and data-use concerns.  
+
+---
+
+🚀 **Final Thought:**  
+Affective Computing bridges the gap between **cold technology** and **human warmth**. By harnessing **sentic modulation**, **physiological cues**, and **innovative sensing** (like ExpresSense), ubiquitous systems can become truly **emotion-aware**, fostering richer, more empathetic human–computer interactions.
+
+# 🕶️ **EEGlass: Toward Everyday EEG-Eyewear for Brain–Computer Interaction**  
+
+---
+
+## 🔎 **Context & Motivation**  
+EEGlass emerges at the intersection of two trends: the rapid miniaturization of head-mounted displays (HMDs) into socially acceptable eyewear, and the quest to take EEG out of the lab and into daily life. Rather than bulky EEG caps or hidden lab rigs, EEGlass embeds electrodes into normal-looking frames, aiming to capture meaningful brain signals—resting rhythms, motor-intention desynchronizations, and eye-movement artifacts—while you go about your routine.
+
+---
+
+## 🛠️ **Prototype Design & Hardware**  
+- **Form Factor:** Consumer-style plastic frames that can house a Google Glass-type module for familiarity and social comfort.  
+- **Electrode Layout:**  
+  - **Central Bridge Contact:** One electrode at the glabella (just above the nose) captures frontal signals.  
+  - **Mastoid Contacts:** Two electrodes behind each ear tap into temporal/parietal activity.  
+  - **Reference & Ground:** Nasal-bridge pads serve as common reference points.  
+- **Electronics:** An open-source OpenBCI Cyton board provides 8 channels, an inertial sensor, local storage, Bluetooth connectivity, and Arduino-style programmability.  
+
+Together, these choices trade off full-cap spatial resolution for wearability and cost-effectiveness, while still targeting key EEG bands and eye-movement potentials.
+
+---
+
+## 📡 **Signal Acquisition & Processing**  
+- **Resting State Protocol:** Alternating eyes-open vs. eyes-closed windows reveal classic alpha peaks around 8–12 Hz in both EEGlass and a medical-grade 8-channel system.  
+- **Motor Intention Task:** Using a two-class hand-movement paradigm, EEGlass detects event-related desynchronization (ERD) in alpha/beta bands, albeit at lower amplitude compared to scalp-centered electrodes—confirming weaker but usable signals.  
+- **EOG Detection:** Subtle shifts in skin potential from blinks and saccades manifest cleanly in the ultrasonic-free EEG channels, opening doorways to integrated eye-tracking.  
+
+Data flows from raw biopotential → high-pass and notch filtering → power spectral estimation for rhythms → ERD computation for movement.
+
+---
+
+## 📈 **Performance & Findings**  
+- **Alpha Rhythm Capture:** EEGlass matches baseline systems in identifying the alpha peak during rest, showing that even peripheral contacts can sense global cortical oscillations.  
+- **Motor-Action ERD:** Though ERD magnitude is attenuated, EEGlass reliably distinguishes left vs. right hand preparation through lateral electrode pairs—laying groundwork for simple motor BCIs.  
+- **Eye-Movement Signals:** The single-degree-of-freedom EOG channel registers directional eye motions and blinks with sufficient clarity for blink detection or coarse gaze estimation.  
+
+Together, these results validate EEGlass’s core promise: unobtrusive capture of multiple neural signatures in real time.
+
+---
+
+## 🏆 **Strengths & Innovations**  
+- **Social Acceptability:** Frames look like regular glasses—wearable in public without stigma.  
+- **Open Platform:** Leverages community-driven OpenBCI hardware/software, encouraging hackability and transparent research.  
+- **Multi-Modal Potential:** Combines EEG, EOG, and IMU in one form factor, enabling richer interfaces and context-aware applications.  
+
+---
+
+## ⚠️ **Limitations & Challenges**  
+- **Spatial Resolution:** Skull-peripheral electrodes cannot localize deep or fine-scale cortical activity—limiting advanced BCI paradigms.  
+- **Signal Attenuation:** Brain signals must traverse more tissue before reaching electrodes, reducing signal-to-noise and demanding careful filtering.  
+- **Fit & Stability:** Everyday movement or ill-fitting frames can break contact, creating artifacts or data loss.  
+- **User Diversity:** Head shapes and skin properties vary; electrode placement may need adaptive sizing or adjustable mounts.  
+
+---
+
+## 🔮 **Future Directions**  
+- **Machine Learning Calibration:** Train personalized models that map EEGlass inputs to lab-grade signals, compensating for attenuation and noise.  
+- **Miniaturized Electronics:** Integrate ultra-low-power amplifiers and battery into the temple arms, eliminating external modules.  
+- **Hybrid Sensing:** Fuse eye-motion, brain rhythms, and head orientation to create intuitive hands-free controls for AR/VR interfaces.  
+- **Longitudinal Studies:** Deploy across diverse users and use cases—cognitive load monitoring, wellness feedback, adaptive gaming—to assess robustness in the wild.  
+
+---
+
+🚀 **Takeaway:**  
+EEGlass charts a path toward **everyday brain–computer interfaces** by embedding EEG into familiar eyewear. Though resolution and signal strength are trade-offs, the prototype’s proof-of-concept success in capturing alpha rhythms, motor-related ERD, and EOG artifacts suggests that socially integrated neuroadaptive systems may soon become a part of our daily wearable toolkit.
